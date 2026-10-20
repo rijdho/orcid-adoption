@@ -1,0 +1,335 @@
+{
+  "generatedAt": "2026-10-20",
+  "years": {
+    "2012": {
+      "member": {
+        "profiles": 151,
+        "avgOverall": 0.6124999999999998,
+        "empty": 0.09271523178807947
+      },
+      "consortium": {
+        "profiles": 128,
+        "avgOverall": 0.614485677083333,
+        "empty": 0.09375
+      },
+      "direct": {
+        "profiles": 23,
+        "avgOverall": 0.601449275362319,
+        "empty": 0.08695652173913043
+      },
+      "none": {
+        "profiles": 67,
+        "avgOverall": 0.6597014925373131,
+        "empty": 0.014925373134328358
+      }
+    },
+    "2013": {
+      "member": {
+        "profiles": 1197,
+        "avgOverall": 0.6175334168755215,
+        "empty": 0.05764411027568922
+      },
+      "consortium": {
+        "profiles": 1070,
+        "avgOverall": 0.6149143302180686,
+        "empty": 0.059813084112149535
+      },
+      "direct": {
+        "profiles": 127,
+        "avgOverall": 0.6395997375328084,
+        "empty": 0.03937007874015748
+      },
+      "none": {
+        "profiles": 571,
+        "avgOverall": 0.6245475773496793,
+        "empty": 0.07355516637478109
+      }
+    },
+    "2014": {
+      "member": {
+        "profiles": 1488,
+        "avgOverall": 0.6131580421146946,
+        "empty": 0.07123655913978495
+      },
+      "consortium": {
+        "profiles": 1292,
+        "avgOverall": 0.6125032249742004,
+        "empty": 0.0673374613003096
+      },
+      "direct": {
+        "profiles": 196,
+        "avgOverall": 0.6174744897959183,
+        "empty": 0.09693877551020408
+      },
+      "none": {
+        "profiles": 724,
+        "avgOverall": 0.5877992633517494,
+        "empty": 0.08839779005524862
+      }
+    },
+    "2015": {
+      "member": {
+        "profiles": 2303,
+        "avgOverall": 0.5915400202634241,
+        "empty": 0.09031697785497178
+      },
+      "consortium": {
+        "profiles": 2030,
+        "avgOverall": 0.5899035303776691,
+        "empty": 0.09064039408866995
+      },
+      "direct": {
+        "profiles": 273,
+        "avgOverall": 0.603708791208791,
+        "empty": 0.08791208791208792
+      },
+      "none": {
+        "profiles": 877,
+        "avgOverall": 0.6015155834283551,
+        "empty": 0.08437856328392246
+      }
+    },
+    "2016": {
+      "member": {
+        "profiles": 3668,
+        "avgOverall": 0.5664849145765183,
+        "empty": 0.15485278080697928
+      },
+      "consortium": {
+        "profiles": 3196,
+        "avgOverall": 0.5636798602419691,
+        "empty": 0.15519399249061328
+      },
+      "direct": {
+        "profiles": 472,
+        "avgOverall": 0.5854784604519774,
+        "empty": 0.15254237288135594
+      },
+      "none": {
+        "profiles": 1458,
+        "avgOverall": 0.5674096936442617,
+        "empty": 0.1673525377229081
+      }
+    },
+    "2017": {
+      "member": {
+        "profiles": 4584,
+        "avgOverall": 0.5523660194880747,
+        "empty": 0.14790575916230367
+      },
+      "consortium": {
+        "profiles": 3967,
+        "avgOverall": 0.5489685740694079,
+        "empty": 0.15149987396017142
+      },
+      "direct": {
+        "profiles": 617,
+        "avgOverall": 0.5742098865478118,
+        "empty": 0.12479740680713128
+      },
+      "none": {
+        "profiles": 2033,
+        "avgOverall": 0.5584460567306112,
+        "empty": 0.15395966551893753
+      }
+    },
+    "2018": {
+      "member": {
+        "profiles": 4955,
+        "avgOverall": 0.5485469223007076,
+        "empty": 0.12714429868819374
+      },
+      "consortium": {
+        "profiles": 4167,
+        "avgOverall": 0.5429415646748262,
+        "empty": 0.1300695944324454
+      },
+      "direct": {
+        "profiles": 788,
+        "avgOverall": 0.5781884517766507,
+        "empty": 0.1116751269035533
+      },
+      "none": {
+        "profiles": 2427,
+        "avgOverall": 0.5474883257794251,
+        "empty": 0.14915533580552123
+      }
+    },
+    "2019": {
+      "member": {
+        "profiles": 5612,
+        "avgOverall": 0.5300613269185089,
+        "empty": 0.13542409123307197
+      },
+      "consortium": {
+        "profiles": 4741,
+        "avgOverall": 0.5258542501581949,
+        "empty": 0.1368909512761021
+      },
+      "direct": {
+        "profiles": 871,
+        "avgOverall": 0.5529611557596629,
+        "empty": 0.12743972445464982
+      },
+      "none": {
+        "profiles": 2719,
+        "avgOverall": 0.5353883167831311,
+        "empty": 0.15704303052592866
+      }
+    },
+    "2020": {
+      "member": {
+        "profiles": 6917,
+        "avgOverall": 0.5058400799961473,
+        "empty": 0.16061876536070552
+      },
+      "consortium": {
+        "profiles": 5732,
+        "avgOverall": 0.5014385612933274,
+        "empty": 0.1636427076064201
+      },
+      "direct": {
+        "profiles": 1185,
+        "avgOverall": 0.5271308016877629,
+        "empty": 0.1459915611814346
+      },
+      "none": {
+        "profiles": 3869,
+        "avgOverall": 0.5045629792366685,
+        "empty": 0.1806668389764797
+      }
+    },
+    "2021": {
+      "member": {
+        "profiles": 6767,
+        "avgOverall": 0.4785244569233041,
+        "empty": 0.17555785429289197
+      },
+      "consortium": {
+        "profiles": 5581,
+        "avgOverall": 0.4726340858866398,
+        "empty": 0.18437555993549543
+      },
+      "direct": {
+        "profiles": 1186,
+        "avgOverall": 0.5062429735806632,
+        "empty": 0.13406408094435077
+      },
+      "none": {
+        "profiles": 3824,
+        "avgOverall": 0.477805744421201,
+        "empty": 0.20685146443514643
+      }
+    },
+    "2022": {
+      "member": {
+        "profiles": 10986,
+        "avgOverall": 0.41168911948539977,
+        "empty": 0.3115783724740579
+      },
+      "consortium": {
+        "profiles": 9210,
+        "avgOverall": 0.4037585957292695,
+        "empty": 0.3266015200868621
+      },
+      "direct": {
+        "profiles": 1776,
+        "avgOverall": 0.4528153153153165,
+        "empty": 0.23367117117117117
+      },
+      "none": {
+        "profiles": 6381,
+        "avgOverall": 0.4306580734472111,
+        "empty": 0.30590816486444133
+      }
+    },
+    "2023": {
+      "member": {
+        "profiles": 14833,
+        "avgOverall": 0.37004258522663647,
+        "empty": 0.38684015371131936
+      },
+      "consortium": {
+        "profiles": 12245,
+        "avgOverall": 0.3699064243909029,
+        "empty": 0.39232339730502247
+      },
+      "direct": {
+        "profiles": 2588,
+        "avgOverall": 0.3706868238021658,
+        "empty": 0.3608964451313756
+      },
+      "none": {
+        "profiles": 8751,
+        "avgOverall": 0.38787471907971877,
+        "empty": 0.3913838418466461
+      }
+    },
+    "2024": {
+      "member": {
+        "profiles": 37187,
+        "avgOverall": 0.22773886035440857,
+        "empty": 0.6837873450399333
+      },
+      "consortium": {
+        "profiles": 31128,
+        "avgOverall": 0.22717515848537528,
+        "empty": 0.6893150860961192
+      },
+      "direct": {
+        "profiles": 6059,
+        "avgOverall": 0.2306348682400893,
+        "empty": 0.6553886779996699
+      },
+      "none": {
+        "profiles": 27160,
+        "avgOverall": 0.2304329283259475,
+        "empty": 0.6973122238586156
+      }
+    },
+    "2025": {
+      "member": {
+        "profiles": 36605,
+        "avgOverall": 0.1954443837362648,
+        "empty": 0.7516186313345171
+      },
+      "consortium": {
+        "profiles": 30580,
+        "avgOverall": 0.19577828646171958,
+        "empty": 0.7545454545454545
+      },
+      "direct": {
+        "profiles": 6025,
+        "avgOverall": 0.1937496542185377,
+        "empty": 0.7367634854771784
+      },
+      "none": {
+        "profiles": 30718,
+        "avgOverall": 0.20148148751001124,
+        "empty": 0.7679210886125398
+      }
+    },
+    "2026": {
+      "member": {
+        "profiles": 15500,
+        "avgOverall": 0.18205053763440368,
+        "empty": 0.7912903225806451
+      },
+      "consortium": {
+        "profiles": 12989,
+        "avgOverall": 0.1813309980239709,
+        "empty": 0.7967510970821464
+      },
+      "direct": {
+        "profiles": 2511,
+        "avgOverall": 0.18577260055754583,
+        "empty": 0.7630426125049781
+      },
+      "none": {
+        "profiles": 15472,
+        "avgOverall": 0.1900993192002697,
+        "empty": 0.796858841778697
+      }
+    }
+  }
+}

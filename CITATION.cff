@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this comparison or its data, please cite it as below."
+title: "ORCID profiles at member and non-member institutions"
+abstract: >-
+  Completeness of the public ORCID profiles found through the ROR ids of 120 research
+  institutions, 20 per continent, compared between ORCID members and other institutions: overall,
+  year by year of account creation, by link to the institution, and by who wrote each entry. The
+  aggregated results in data/ are under CC BY 4.0; the code is under MIT. Profile-level data are
+  available for research on request.
+type: software
+authors:
+  - family-names: "Hartley Belmar"
+    given-names: "Ricardo"
+    alias: rijdho
+    orcid: "https://orcid.org/0000-0001-5058-9309"
+repository-code: "https://github.com/rijdho/orcid-adoption"
+url: "https://rijdho.github.io/orcid-adoption/"
+license: MIT
+version: "0.1.0"
+date-released: "2026-10-20"
+keywords:
+  - ORCID
+  - ROR
+  - research information
+  - metadata quality
+  - ORCID membership
+  - open science

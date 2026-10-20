@@ -1,0 +1,267 @@
+{
+  "generatedAt": "2026-10-20",
+  "weights": {
+    "identity": 0.15,
+    "employment": 0.2,
+    "education": 0.1,
+    "works": 0.35,
+    "funding": 0.1,
+    "peer_review": 0.1
+  },
+  "checks": {
+    "biography": {
+      "member": {
+        "share": 0.11006447811998822,
+        "applicable": 152765
+      },
+      "consortium": {
+        "share": 0.10796080115566314,
+        "applicable": 128065
+      },
+      "direct": {
+        "share": 0.12097165991902833,
+        "applicable": 24700
+      },
+      "none": {
+        "share": 0.1356647798389658,
+        "applicable": 107058
+      }
+    },
+    "keywords": {
+      "member": {
+        "share": 0.11119039046902104,
+        "applicable": 152765
+      },
+      "consortium": {
+        "share": 0.10997540311560536,
+        "applicable": 128065
+      },
+      "direct": {
+        "share": 0.11748987854251013,
+        "applicable": 24700
+      },
+      "none": {
+        "share": 0.11521791925871958,
+        "applicable": 107058
+      }
+    },
+    "country": {
+      "member": {
+        "share": 0.17617909861552056,
+        "applicable": 152765
+      },
+      "consortium": {
+        "share": 0.17495022059110607,
+        "applicable": 128065
+      },
+      "direct": {
+        "share": 0.1825506072874494,
+        "applicable": 24700
+      },
+      "none": {
+        "share": 0.18886024397989876,
+        "applicable": 107058
+      }
+    },
+    "urls": {
+      "member": {
+        "share": 0.14589074722613163,
+        "applicable": 152765
+      },
+      "consortium": {
+        "share": 0.1486432670909304,
+        "applicable": 128065
+      },
+      "direct": {
+        "share": 0.13161943319838057,
+        "applicable": 24700
+      },
+      "none": {
+        "share": 0.1268097666685348,
+        "applicable": 107058
+      }
+    },
+    "employment_dated": {
+      "member": {
+        "share": 0.5752168363172192,
+        "applicable": 152765
+      },
+      "consortium": {
+        "share": 0.5806894936165229,
+        "applicable": 128065
+      },
+      "direct": {
+        "share": 0.5468421052631579,
+        "applicable": 24700
+      },
+      "none": {
+        "share": 0.5930430234078724,
+        "applicable": 107058
+      }
+    },
+    "education": {
+      "member": {
+        "share": 0.4762543776388571,
+        "applicable": 152765
+      },
+      "consortium": {
+        "share": 0.47381407878811543,
+        "applicable": 128065
+      },
+      "direct": {
+        "share": 0.4889068825910931,
+        "applicable": 24700
+      },
+      "none": {
+        "share": 0.4524837004240692,
+        "applicable": 107058
+      }
+    },
+    "has_works": {
+      "member": {
+        "share": 0.4782770922658986,
+        "applicable": 152765
+      },
+      "consortium": {
+        "share": 0.4745246554484051,
+        "applicable": 128065
+      },
+      "direct": {
+        "share": 0.4977327935222672,
+        "applicable": 24700
+      },
+      "none": {
+        "share": 0.40917072988473535,
+        "applicable": 107058
+      }
+    },
+    "works_5plus": {
+      "member": {
+        "share": 0.240185906457631,
+        "applicable": 152765
+      },
+      "consortium": {
+        "share": 0.23744192402295708,
+        "applicable": 128065
+      },
+      "direct": {
+        "share": 0.25441295546558707,
+        "applicable": 24700
+      },
+      "none": {
+        "share": 0.18812232621569616,
+        "applicable": 107058
+      }
+    },
+    "works_with_doi": {
+      "member": {
+        "share": 0.43884397604163256,
+        "applicable": 152765
+      },
+      "consortium": {
+        "share": 0.43393589192987936,
+        "applicable": 128065
+      },
+      "direct": {
+        "share": 0.4642914979757085,
+        "applicable": 24700
+      },
+      "none": {
+        "share": 0.3548730594630948,
+        "applicable": 107058
+      }
+    },
+    "funding": {
+      "member": {
+        "share": 0.0705789938794881,
+        "applicable": 152765
+      },
+      "consortium": {
+        "share": 0.07131534767500879,
+        "applicable": 128065
+      },
+      "direct": {
+        "share": 0.06676113360323886,
+        "applicable": 24700
+      },
+      "none": {
+        "share": 0.05443778138952717,
+        "applicable": 107058
+      }
+    },
+    "peer_review": {
+      "member": {
+        "share": 0.09226589860242856,
+        "applicable": 152765
+      },
+      "consortium": {
+        "share": 0.09200015617069457,
+        "applicable": 128065
+      },
+      "direct": {
+        "share": 0.09364372469635628,
+        "applicable": 24700
+      },
+      "none": {
+        "share": 0.05892133236189729,
+        "applicable": 107058
+      }
+    },
+    "employment_ror_elsewhere": {
+      "member": {
+        "share": 0.4178350883120296,
+        "applicable": 53277
+      },
+      "consortium": {
+        "share": 0.41482067510548526,
+        "applicable": 45504
+      },
+      "direct": {
+        "share": 0.4354817959603757,
+        "applicable": 7773
+      },
+      "none": {
+        "share": 0.44324786324786325,
+        "applicable": 35100
+      }
+    }
+  },
+  "categories": {
+    "identity": {
+      "member": 0.13583117860766536,
+      "consortium": 0.13538242298832623,
+      "direct": 0.13815789473684212,
+      "none": 0.14163817743652973
+    },
+    "employment": {
+      "member": 0.4944457172781724,
+      "consortium": 0.4981064303283489,
+      "direct": 0.4754655870445344,
+      "none": 0.5225718769265258
+    },
+    "education": {
+      "member": 0.4762543776388571,
+      "consortium": 0.47381407878811543,
+      "direct": 0.4889068825910931,
+      "none": 0.4524837004240692
+    },
+    "works": {
+      "member": 0.38576899158824735,
+      "consortium": 0.3819674904670053,
+      "direct": 0.40547908232118884,
+      "none": 0.3173887051879168
+    },
+    "funding": {
+      "member": 0.0705789938794881,
+      "consortium": 0.07131534767500879,
+      "direct": 0.06676113360323886,
+      "none": 0.05443778138952717
+    },
+    "peer_review": {
+      "member": 0.09226589860242856,
+      "consortium": 0.09200015617069457,
+      "direct": 0.09364372469635628,
+      "none": 0.05892133236189729
+    }
+  }
+}

@@ -1,0 +1,10 @@
+ORCID profiles at member and non-member institutions (orcid-adoption)
+Copyright 2026 Ricardo Hartley Belmar (ORCID 0000-0001-5058-9309)
+
+The code is licensed under the MIT License (LICENSE).
+
+The aggregated data in data/ is licensed separately under the Creative Commons Attribution 4.0
+International License (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
+It is derived from public metadata in the ORCID Public API, ROR and ORCID's member list.
+
+web/src/house/fonts/: Inter, by Rasmus Andersson, under the SIL Open Font License 1.1.

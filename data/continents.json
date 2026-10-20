@@ -1,0 +1,161 @@
+{
+  "generatedAt": "2026-10-20",
+  "continents": {
+    "europe": {
+      "member": {
+        "institutions": 12,
+        "profiles": 28766,
+        "avgOverall": 0.3463078518621511,
+        "empty": 0.44702078843078635
+      },
+      "consortium": {
+        "institutions": 9,
+        "profiles": 22499,
+        "avgOverall": 0.33265941449249486,
+        "empty": 0.4730432463665052
+      },
+      "direct": {
+        "institutions": 3,
+        "profiles": 6267,
+        "avgOverall": 0.39530676559757544,
+        "empty": 0.35359821286101806
+      },
+      "none": {
+        "institutions": 8,
+        "profiles": 19218,
+        "avgOverall": 0.3538390658063614,
+        "empty": 0.445467790612967
+      }
+    },
+    "north_america": {
+      "member": {
+        "institutions": 17,
+        "profiles": 39939,
+        "avgOverall": 0.30893591894307,
+        "empty": 0.5277548261098175
+      },
+      "consortium": {
+        "institutions": 17,
+        "profiles": 39939,
+        "avgOverall": 0.30893591894307,
+        "empty": 0.5277548261098175
+      },
+      "direct": {
+        "institutions": 0,
+        "profiles": 0,
+        "avgOverall": null,
+        "empty": null
+      },
+      "none": {
+        "institutions": 3,
+        "profiles": 5532,
+        "avgOverall": 0.32585035550735963,
+        "empty": 0.5533261026753434
+      }
+    },
+    "south_america": {
+      "member": {
+        "institutions": 8,
+        "profiles": 19104,
+        "avgOverall": 0.26728368404520325,
+        "empty": 0.6693362646566164
+      },
+      "consortium": {
+        "institutions": 6,
+        "profiles": 14104,
+        "avgOverall": 0.2677136509736939,
+        "empty": 0.6586783891094725
+      },
+      "direct": {
+        "institutions": 2,
+        "profiles": 5000,
+        "avgOverall": 0.2660708333333391,
+        "empty": 0.6994
+      },
+      "none": {
+        "institutions": 12,
+        "profiles": 26428,
+        "avgOverall": 0.25240180868773154,
+        "empty": 0.691463599212956
+      }
+    },
+    "asia": {
+      "member": {
+        "institutions": 6,
+        "profiles": 14232,
+        "avgOverall": 0.31097555977139935,
+        "empty": 0.48510399100618323
+      },
+      "consortium": {
+        "institutions": 1,
+        "profiles": 2242,
+        "avgOverall": 0.34650981266726155,
+        "empty": 0.41570026761819806
+      },
+      "direct": {
+        "institutions": 5,
+        "profiles": 11990,
+        "avgOverall": 0.3043310397553424,
+        "empty": 0.4980817347789825
+      },
+      "none": {
+        "institutions": 14,
+        "profiles": 32915,
+        "avgOverall": 0.27363448782216115,
+        "empty": 0.6077168464226037
+      }
+    },
+    "africa": {
+      "member": {
+        "institutions": 8,
+        "profiles": 18424,
+        "avgOverall": 0.2841637718917213,
+        "empty": 0.6530612244897959
+      },
+      "consortium": {
+        "institutions": 7,
+        "profiles": 16981,
+        "avgOverall": 0.2780909545962981,
+        "empty": 0.6660974029798009
+      },
+      "direct": {
+        "institutions": 1,
+        "profiles": 1443,
+        "avgOverall": 0.35562774312774315,
+        "empty": 0.49965349965349964
+      },
+      "none": {
+        "institutions": 12,
+        "profiles": 22656,
+        "avgOverall": 0.30987928142653987,
+        "empty": 0.5823622881355932
+      }
+    },
+    "oceania": {
+      "member": {
+        "institutions": 17,
+        "profiles": 32300,
+        "avgOverall": 0.35730121259029973,
+        "empty": 0.43470588235294116
+      },
+      "consortium": {
+        "institutions": 17,
+        "profiles": 32300,
+        "avgOverall": 0.35730121259029973,
+        "empty": 0.43470588235294116
+      },
+      "direct": {
+        "institutions": 0,
+        "profiles": 0,
+        "avgOverall": null,
+        "empty": null
+      },
+      "none": {
+        "institutions": 3,
+        "profiles": 309,
+        "avgOverall": 0.36767799352750846,
+        "empty": 0.517799352750809
+      }
+    }
+  }
+}

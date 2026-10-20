@@ -1,0 +1,1629 @@
+{
+  "generatedAt": "2026-10-20",
+  "kinds": [
+    "researcher",
+    "delegate",
+    "linked",
+    "institution",
+    "other"
+  ],
+  "sections": [
+    "here",
+    "affiliations",
+    "works",
+    "fundings",
+    "peer-reviews"
+  ],
+  "ownMin": 0.01,
+  "groups": {
+    "member": {
+      "here": {
+        "2013": {
+          "researcher": 1
+        },
+        "2014": {
+          "researcher": 31
+        },
+        "2015": {
+          "researcher": 45
+        },
+        "2016": {
+          "researcher": 68
+        },
+        "2017": {
+          "researcher": 63,
+          "institution": 40
+        },
+        "2018": {
+          "researcher": 78,
+          "institution": 15
+        },
+        "2019": {
+          "researcher": 162,
+          "institution": 14
+        },
+        "2020": {
+          "researcher": 148,
+          "institution": 14
+        },
+        "2021": {
+          "researcher": 129,
+          "institution": 22
+        },
+        "2022": {
+          "researcher": 3774,
+          "institution": 19
+        },
+        "2023": {
+          "researcher": 8131,
+          "institution": 428
+        },
+        "2024": {
+          "researcher": 34924,
+          "institution": 197,
+          "delegate": 1
+        },
+        "2025": {
+          "researcher": 42997,
+          "institution": 536,
+          "other": 5
+        },
+        "2026": {
+          "researcher": 18941,
+          "institution": 910,
+          "other": 1
+        }
+      },
+      "works": {
+        "2013": {
+          "linked": 6774,
+          "researcher": 1039,
+          "other": 16
+        },
+        "2014": {
+          "researcher": 547,
+          "linked": 5653,
+          "institution": 409,
+          "other": 301
+        },
+        "2015": {
+          "researcher": 2975,
+          "linked": 11533,
+          "institution": 224,
+          "other": 357
+        },
+        "2016": {
+          "other": 1821,
+          "linked": 16053,
+          "researcher": 5287,
+          "institution": 2022
+        },
+        "2017": {
+          "researcher": 5745,
+          "other": 3073,
+          "linked": 19938,
+          "institution": 2505
+        },
+        "2018": {
+          "other": 5451,
+          "linked": 17060,
+          "researcher": 7496,
+          "institution": 1762
+        },
+        "2019": {
+          "other": 7961,
+          "researcher": 14917,
+          "linked": 19484,
+          "institution": 2919
+        },
+        "2020": {
+          "linked": 17132,
+          "researcher": 20975,
+          "other": 13066,
+          "institution": 2610
+        },
+        "2021": {
+          "other": 16989,
+          "researcher": 21452,
+          "linked": 17630,
+          "institution": 3128
+        },
+        "2022": {
+          "other": 21590,
+          "researcher": 44740,
+          "linked": 24803,
+          "institution": 3927
+        },
+        "2023": {
+          "other": 30994,
+          "researcher": 67654,
+          "linked": 39257,
+          "institution": 6380
+        },
+        "2024": {
+          "other": 50421,
+          "researcher": 74175,
+          "linked": 43446,
+          "institution": 14574
+        },
+        "2025": {
+          "researcher": 78963,
+          "other": 58080,
+          "linked": 52505,
+          "institution": 18167
+        },
+        "2026": {
+          "researcher": 53196,
+          "other": 50041,
+          "linked": 59717,
+          "institution": 21353
+        }
+      },
+      "affiliations": {
+        "2013": {
+          "researcher": 150
+        },
+        "2014": {
+          "researcher": 1628,
+          "other": 16,
+          "institution": 5
+        },
+        "2015": {
+          "researcher": 2938,
+          "other": 17,
+          "institution": 25,
+          "linked": 1
+        },
+        "2016": {
+          "researcher": 4378,
+          "other": 22,
+          "institution": 12
+        },
+        "2017": {
+          "researcher": 6460,
+          "other": 39,
+          "institution": 20
+        },
+        "2018": {
+          "researcher": 8631,
+          "institution": 54,
+          "other": 57
+        },
+        "2019": {
+          "other": 88,
+          "researcher": 10971,
+          "institution": 54
+        },
+        "2020": {
+          "researcher": 13626,
+          "other": 101,
+          "institution": 82
+        },
+        "2021": {
+          "researcher": 14251,
+          "other": 96,
+          "institution": 141
+        },
+        "2022": {
+          "researcher": 38874,
+          "other": 162,
+          "institution": 577
+        },
+        "2023": {
+          "researcher": 65413,
+          "other": 269,
+          "institution": 512
+        },
+        "2024": {
+          "researcher": 75702,
+          "other": 432,
+          "institution": 746
+        },
+        "2025": {
+          "researcher": 82171,
+          "other": 941,
+          "institution": 975
+        },
+        "2026": {
+          "researcher": 48713,
+          "other": 831,
+          "institution": 797
+        }
+      },
+      "fundings": {
+        "2014": {
+          "researcher": 119,
+          "linked": 35
+        },
+        "2015": {
+          "researcher": 298,
+          "linked": 74
+        },
+        "2016": {
+          "researcher": 345,
+          "linked": 127,
+          "institution": 330,
+          "other": 2
+        },
+        "2017": {
+          "researcher": 634,
+          "linked": 219,
+          "other": 2,
+          "institution": 7
+        },
+        "2018": {
+          "researcher": 779,
+          "linked": 214,
+          "other": 32,
+          "institution": 28
+        },
+        "2019": {
+          "researcher": 804,
+          "linked": 156,
+          "other": 31,
+          "institution": 27
+        },
+        "2020": {
+          "researcher": 1115,
+          "linked": 224,
+          "other": 36,
+          "institution": 83
+        },
+        "2021": {
+          "researcher": 1118,
+          "linked": 144,
+          "other": 30,
+          "institution": 91
+        },
+        "2022": {
+          "linked": 475,
+          "researcher": 3107,
+          "other": 46,
+          "institution": 4
+        },
+        "2023": {
+          "researcher": 4805,
+          "linked": 690,
+          "other": 262,
+          "institution": 2
+        },
+        "2024": {
+          "researcher": 6254,
+          "linked": 1143,
+          "other": 211
+        },
+        "2025": {
+          "researcher": 7005,
+          "linked": 1579,
+          "other": 161
+        },
+        "2026": {
+          "linked": 1131,
+          "researcher": 5176,
+          "other": 77
+        }
+      },
+      "peer-reviews": {
+        "2016": {
+          "other": 906
+        },
+        "2017": {
+          "other": 182
+        },
+        "2018": {
+          "other": 1638
+        },
+        "2019": {
+          "other": 3859
+        },
+        "2020": {
+          "other": 7640
+        },
+        "2021": {
+          "other": 11447
+        },
+        "2022": {
+          "other": 11361
+        },
+        "2023": {
+          "other": 20808
+        },
+        "2024": {
+          "other": 28737
+        },
+        "2025": {
+          "other": 29753
+        },
+        "2026": {
+          "other": 27132
+        }
+      }
+    },
+    "consortium": {
+      "affiliations": {
+        "2013": {
+          "researcher": 114
+        },
+        "2014": {
+          "researcher": 1438,
+          "other": 14
+        },
+        "2015": {
+          "institution": 17,
+          "researcher": 2583,
+          "other": 11
+        },
+        "2016": {
+          "researcher": 3914,
+          "institution": 9,
+          "other": 12
+        },
+        "2017": {
+          "researcher": 5715,
+          "institution": 15,
+          "other": 31
+        },
+        "2018": {
+          "institution": 49,
+          "researcher": 7389,
+          "other": 48
+        },
+        "2019": {
+          "researcher": 9457,
+          "institution": 29,
+          "other": 76
+        },
+        "2020": {
+          "researcher": 11456,
+          "institution": 67,
+          "other": 82
+        },
+        "2021": {
+          "researcher": 12284,
+          "institution": 81,
+          "other": 84
+        },
+        "2022": {
+          "researcher": 32866,
+          "other": 154,
+          "institution": 548
+        },
+        "2023": {
+          "researcher": 55887,
+          "institution": 505,
+          "other": 256
+        },
+        "2024": {
+          "researcher": 65064,
+          "institution": 731,
+          "other": 381
+        },
+        "2025": {
+          "researcher": 70434,
+          "institution": 963,
+          "other": 850
+        },
+        "2026": {
+          "researcher": 41242,
+          "institution": 791,
+          "other": 772
+        }
+      },
+      "works": {
+        "2013": {
+          "researcher": 902,
+          "linked": 6188,
+          "other": 9
+        },
+        "2014": {
+          "linked": 4824,
+          "institution": 219,
+          "researcher": 472,
+          "other": 224
+        },
+        "2015": {
+          "institution": 103,
+          "researcher": 2777,
+          "linked": 10125,
+          "other": 146
+        },
+        "2016": {
+          "other": 1696,
+          "linked": 14585,
+          "researcher": 4980,
+          "institution": 1912
+        },
+        "2017": {
+          "researcher": 5285,
+          "linked": 18251,
+          "other": 2550,
+          "institution": 2328
+        },
+        "2018": {
+          "other": 4666,
+          "linked": 15031,
+          "institution": 1674,
+          "researcher": 6901
+        },
+        "2019": {
+          "researcher": 13706,
+          "other": 6825,
+          "institution": 2665,
+          "linked": 18009
+        },
+        "2020": {
+          "other": 10989,
+          "researcher": 18235,
+          "linked": 14982,
+          "institution": 2311
+        },
+        "2021": {
+          "researcher": 18693,
+          "linked": 15443,
+          "other": 14638,
+          "institution": 2705
+        },
+        "2022": {
+          "other": 17666,
+          "linked": 20887,
+          "researcher": 35587,
+          "institution": 3507
+        },
+        "2023": {
+          "other": 25867,
+          "researcher": 56114,
+          "institution": 5696,
+          "linked": 33481
+        },
+        "2024": {
+          "other": 40831,
+          "researcher": 62109,
+          "linked": 36119,
+          "institution": 13701
+        },
+        "2025": {
+          "researcher": 65134,
+          "other": 48948,
+          "linked": 44834,
+          "institution": 17014
+        },
+        "2026": {
+          "other": 41326,
+          "institution": 20330,
+          "researcher": 44268,
+          "linked": 48894
+        }
+      },
+      "here": {
+        "2013": {
+          "researcher": 1
+        },
+        "2014": {
+          "researcher": 23
+        },
+        "2015": {
+          "researcher": 35
+        },
+        "2016": {
+          "researcher": 55
+        },
+        "2017": {
+          "researcher": 45,
+          "institution": 40
+        },
+        "2018": {
+          "researcher": 65,
+          "institution": 15
+        },
+        "2019": {
+          "researcher": 141,
+          "institution": 14
+        },
+        "2020": {
+          "researcher": 124,
+          "institution": 14
+        },
+        "2021": {
+          "researcher": 105,
+          "institution": 22
+        },
+        "2022": {
+          "researcher": 2941,
+          "institution": 19
+        },
+        "2023": {
+          "researcher": 6816,
+          "institution": 428
+        },
+        "2024": {
+          "researcher": 29243,
+          "institution": 197,
+          "delegate": 1
+        },
+        "2025": {
+          "researcher": 35993,
+          "institution": 536,
+          "other": 5
+        },
+        "2026": {
+          "researcher": 15752,
+          "institution": 910,
+          "other": 1
+        }
+      },
+      "fundings": {
+        "2014": {
+          "researcher": 113,
+          "linked": 31
+        },
+        "2015": {
+          "researcher": 281,
+          "linked": 73
+        },
+        "2016": {
+          "researcher": 329,
+          "linked": 118,
+          "institution": 330,
+          "other": 2
+        },
+        "2017": {
+          "researcher": 592,
+          "linked": 209,
+          "other": 2,
+          "institution": 7
+        },
+        "2018": {
+          "linked": 190,
+          "researcher": 667,
+          "other": 30,
+          "institution": 28
+        },
+        "2019": {
+          "researcher": 704,
+          "linked": 155,
+          "other": 31,
+          "institution": 27
+        },
+        "2020": {
+          "researcher": 915,
+          "linked": 204,
+          "other": 20,
+          "institution": 83
+        },
+        "2021": {
+          "linked": 138,
+          "researcher": 963,
+          "other": 30,
+          "institution": 91
+        },
+        "2022": {
+          "researcher": 2555,
+          "linked": 411,
+          "other": 27,
+          "institution": 4
+        },
+        "2023": {
+          "researcher": 4168,
+          "linked": 643,
+          "other": 254,
+          "institution": 2
+        },
+        "2024": {
+          "researcher": 5384,
+          "linked": 1040,
+          "other": 196
+        },
+        "2025": {
+          "researcher": 6057,
+          "linked": 1478,
+          "other": 140
+        },
+        "2026": {
+          "linked": 1026,
+          "researcher": 4544,
+          "other": 70
+        }
+      },
+      "peer-reviews": {
+        "2016": {
+          "other": 546
+        },
+        "2017": {
+          "other": 178
+        },
+        "2018": {
+          "other": 1431
+        },
+        "2019": {
+          "other": 3404
+        },
+        "2020": {
+          "other": 6002
+        },
+        "2021": {
+          "other": 8960
+        },
+        "2022": {
+          "other": 9284
+        },
+        "2023": {
+          "other": 16414
+        },
+        "2024": {
+          "other": 22460
+        },
+        "2025": {
+          "other": 23063
+        },
+        "2026": {
+          "other": 20398
+        }
+      }
+    },
+    "direct": {
+      "here": {
+        "2014": {
+          "researcher": 8
+        },
+        "2015": {
+          "researcher": 10
+        },
+        "2016": {
+          "researcher": 13
+        },
+        "2017": {
+          "researcher": 18
+        },
+        "2018": {
+          "researcher": 13
+        },
+        "2019": {
+          "researcher": 21
+        },
+        "2020": {
+          "researcher": 24
+        },
+        "2021": {
+          "researcher": 24
+        },
+        "2022": {
+          "researcher": 833
+        },
+        "2023": {
+          "researcher": 1315
+        },
+        "2024": {
+          "researcher": 5681
+        },
+        "2025": {
+          "researcher": 7004
+        },
+        "2026": {
+          "researcher": 3189
+        }
+      },
+      "works": {
+        "2013": {
+          "linked": 586,
+          "researcher": 137,
+          "other": 7
+        },
+        "2014": {
+          "researcher": 75,
+          "linked": 829,
+          "institution": 190,
+          "other": 77
+        },
+        "2015": {
+          "researcher": 198,
+          "linked": 1408,
+          "other": 211,
+          "institution": 121
+        },
+        "2016": {
+          "other": 125,
+          "linked": 1468,
+          "researcher": 307,
+          "institution": 110
+        },
+        "2017": {
+          "researcher": 460,
+          "other": 523,
+          "linked": 1687,
+          "institution": 177
+        },
+        "2018": {
+          "other": 785,
+          "linked": 2029,
+          "researcher": 595,
+          "institution": 88
+        },
+        "2019": {
+          "other": 1136,
+          "researcher": 1211,
+          "linked": 1475,
+          "institution": 254
+        },
+        "2020": {
+          "linked": 2150,
+          "researcher": 2740,
+          "other": 2077,
+          "institution": 299
+        },
+        "2021": {
+          "other": 2351,
+          "researcher": 2759,
+          "linked": 2187,
+          "institution": 423
+        },
+        "2022": {
+          "other": 3924,
+          "researcher": 9153,
+          "linked": 3916,
+          "institution": 420
+        },
+        "2023": {
+          "other": 5127,
+          "researcher": 11540,
+          "linked": 5776,
+          "institution": 684
+        },
+        "2024": {
+          "other": 9590,
+          "researcher": 12066,
+          "linked": 7327,
+          "institution": 873
+        },
+        "2025": {
+          "researcher": 13829,
+          "other": 9132,
+          "linked": 7671,
+          "institution": 1153
+        },
+        "2026": {
+          "researcher": 8928,
+          "other": 8715,
+          "linked": 10823,
+          "institution": 1023
+        }
+      },
+      "affiliations": {
+        "2013": {
+          "researcher": 36
+        },
+        "2014": {
+          "researcher": 190,
+          "institution": 5,
+          "other": 2
+        },
+        "2015": {
+          "researcher": 355,
+          "other": 6,
+          "institution": 8,
+          "linked": 1
+        },
+        "2016": {
+          "researcher": 464,
+          "other": 10,
+          "institution": 3
+        },
+        "2017": {
+          "researcher": 745,
+          "other": 8,
+          "institution": 5
+        },
+        "2018": {
+          "researcher": 1242,
+          "institution": 5,
+          "other": 9
+        },
+        "2019": {
+          "other": 12,
+          "researcher": 1514,
+          "institution": 25
+        },
+        "2020": {
+          "researcher": 2170,
+          "other": 19,
+          "institution": 15
+        },
+        "2021": {
+          "researcher": 1967,
+          "other": 12,
+          "institution": 60
+        },
+        "2022": {
+          "researcher": 6008,
+          "other": 8,
+          "institution": 29
+        },
+        "2023": {
+          "researcher": 9526,
+          "other": 13,
+          "institution": 7
+        },
+        "2024": {
+          "researcher": 10638,
+          "other": 51,
+          "institution": 15
+        },
+        "2025": {
+          "researcher": 11737,
+          "other": 91,
+          "institution": 12
+        },
+        "2026": {
+          "researcher": 7471,
+          "other": 59,
+          "institution": 6
+        }
+      },
+      "fundings": {
+        "2014": {
+          "researcher": 6,
+          "linked": 4
+        },
+        "2015": {
+          "researcher": 17,
+          "linked": 1
+        },
+        "2016": {
+          "researcher": 16,
+          "linked": 9
+        },
+        "2017": {
+          "researcher": 42,
+          "linked": 10
+        },
+        "2018": {
+          "researcher": 112,
+          "linked": 24,
+          "other": 2
+        },
+        "2019": {
+          "researcher": 100,
+          "linked": 1
+        },
+        "2020": {
+          "researcher": 200,
+          "linked": 20,
+          "other": 16
+        },
+        "2021": {
+          "researcher": 155,
+          "linked": 6
+        },
+        "2022": {
+          "linked": 64,
+          "researcher": 552,
+          "other": 19
+        },
+        "2023": {
+          "researcher": 637,
+          "linked": 47,
+          "other": 8
+        },
+        "2024": {
+          "researcher": 870,
+          "linked": 103,
+          "other": 15
+        },
+        "2025": {
+          "researcher": 948,
+          "linked": 101,
+          "other": 21
+        },
+        "2026": {
+          "linked": 105,
+          "researcher": 632,
+          "other": 7
+        }
+      },
+      "peer-reviews": {
+        "2016": {
+          "other": 360
+        },
+        "2017": {
+          "other": 4
+        },
+        "2018": {
+          "other": 207
+        },
+        "2019": {
+          "other": 455
+        },
+        "2020": {
+          "other": 1638
+        },
+        "2021": {
+          "other": 2487
+        },
+        "2022": {
+          "other": 2077
+        },
+        "2023": {
+          "other": 4394
+        },
+        "2024": {
+          "other": 6277
+        },
+        "2025": {
+          "other": 6690
+        },
+        "2026": {
+          "other": 6734
+        }
+      }
+    },
+    "none": {
+      "affiliations": {
+        "2013": {
+          "researcher": 78
+        },
+        "2014": {
+          "researcher": 628,
+          "other": 3
+        },
+        "2015": {
+          "researcher": 946,
+          "other": 3
+        },
+        "2016": {
+          "researcher": 1541,
+          "other": 3
+        },
+        "2017": {
+          "researcher": 2342,
+          "other": 8
+        },
+        "2018": {
+          "researcher": 3279,
+          "other": 9
+        },
+        "2019": {
+          "researcher": 4438,
+          "other": 9
+        },
+        "2020": {
+          "researcher": 6320,
+          "other": 12,
+          "institution": 2
+        },
+        "2021": {
+          "researcher": 6548,
+          "other": 14,
+          "institution": 6
+        },
+        "2022": {
+          "researcher": 21243,
+          "other": 42,
+          "institution": 5
+        },
+        "2023": {
+          "researcher": 36650,
+          "other": 71,
+          "institution": 5
+        },
+        "2024": {
+          "researcher": 53252,
+          "other": 121
+        },
+        "2025": {
+          "researcher": 64227,
+          "other": 149
+        },
+        "2026": {
+          "researcher": 43555,
+          "other": 200
+        }
+      },
+      "works": {
+        "2013": {
+          "researcher": 512,
+          "linked": 3185
+        },
+        "2014": {
+          "linked": 1928,
+          "researcher": 236,
+          "other": 4
+        },
+        "2015": {
+          "researcher": 700,
+          "linked": 3679,
+          "other": 52
+        },
+        "2016": {
+          "linked": 4666,
+          "other": 447,
+          "researcher": 988
+        },
+        "2017": {
+          "linked": 7104,
+          "researcher": 1903,
+          "other": 708
+        },
+        "2018": {
+          "researcher": 2348,
+          "linked": 7504,
+          "other": 1302
+        },
+        "2019": {
+          "linked": 5685,
+          "researcher": 5151,
+          "other": 2911
+        },
+        "2020": {
+          "other": 4890,
+          "linked": 6035,
+          "researcher": 7069
+        },
+        "2021": {
+          "other": 7347,
+          "linked": 6565,
+          "researcher": 9868
+        },
+        "2022": {
+          "researcher": 22362,
+          "other": 9381,
+          "linked": 10105
+        },
+        "2023": {
+          "researcher": 40817,
+          "other": 15562,
+          "linked": 15645
+        },
+        "2024": {
+          "researcher": 48065,
+          "other": 23179,
+          "linked": 19395,
+          "institution": 1
+        },
+        "2025": {
+          "researcher": 61496,
+          "other": 29252,
+          "linked": 27868
+        },
+        "2026": {
+          "researcher": 45958,
+          "other": 25725,
+          "linked": 28691
+        }
+      },
+      "here": {
+        "2013": {
+          "researcher": 1
+        },
+        "2014": {
+          "researcher": 9
+        },
+        "2015": {
+          "researcher": 13
+        },
+        "2016": {
+          "researcher": 25
+        },
+        "2017": {
+          "researcher": 44
+        },
+        "2018": {
+          "researcher": 48
+        },
+        "2019": {
+          "researcher": 70
+        },
+        "2020": {
+          "researcher": 82
+        },
+        "2021": {
+          "researcher": 82,
+          "institution": 1
+        },
+        "2022": {
+          "researcher": 1696,
+          "other": 2
+        },
+        "2023": {
+          "researcher": 3528,
+          "institution": 173
+        },
+        "2024": {
+          "researcher": 23799,
+          "institution": 33
+        },
+        "2025": {
+          "researcher": 30164
+        },
+        "2026": {
+          "researcher": 15724
+        }
+      },
+      "fundings": {
+        "2014": {
+          "researcher": 48
+        },
+        "2015": {
+          "researcher": 99,
+          "linked": 3
+        },
+        "2016": {
+          "researcher": 169,
+          "linked": 25,
+          "other": 1
+        },
+        "2017": {
+          "researcher": 200,
+          "linked": 25
+        },
+        "2018": {
+          "researcher": 240,
+          "other": 1,
+          "linked": 63
+        },
+        "2019": {
+          "linked": 40,
+          "researcher": 301,
+          "other": 32
+        },
+        "2020": {
+          "other": 67,
+          "researcher": 350,
+          "linked": 48
+        },
+        "2021": {
+          "researcher": 448,
+          "other": 92,
+          "linked": 68
+        },
+        "2022": {
+          "researcher": 1394,
+          "other": 42,
+          "linked": 129
+        },
+        "2023": {
+          "researcher": 2248,
+          "other": 77,
+          "linked": 179
+        },
+        "2024": {
+          "researcher": 3073,
+          "linked": 294,
+          "other": 194
+        },
+        "2025": {
+          "researcher": 3914,
+          "linked": 422,
+          "other": 87
+        },
+        "2026": {
+          "researcher": 3408,
+          "other": 151,
+          "linked": 450
+        }
+      },
+      "peer-reviews": {
+        "2016": {
+          "other": 102
+        },
+        "2017": {
+          "other": 174
+        },
+        "2018": {
+          "other": 1216
+        },
+        "2019": {
+          "other": 2003
+        },
+        "2020": {
+          "other": 2803
+        },
+        "2021": {
+          "other": 6634
+        },
+        "2022": {
+          "other": 7105
+        },
+        "2023": {
+          "other": 10468
+        },
+        "2024": {
+          "other": 15612
+        },
+        "2025": {
+          "other": 15943
+        },
+        "2026": {
+          "other": 14869
+        }
+      }
+    }
+  },
+  "organisations": [
+    {
+      "name": "Crossref",
+      "institutions": 120,
+      "sections": {
+        "works": 261082
+      },
+      "entries": 261082
+    },
+    {
+      "name": "Web of Science Researcher Profile Sync",
+      "institutions": 118,
+      "sections": {
+        "peer-reviews": 77857,
+        "works": 31687
+      },
+      "entries": 109544
+    },
+    {
+      "name": "Elsevier Editorial ",
+      "institutions": 119,
+      "sections": {
+        "peer-reviews": 62170
+      },
+      "entries": 62170
+    },
+    {
+      "name": "Springer Nature @ Editorial Manager",
+      "institutions": 119,
+      "sections": {
+        "peer-reviews": 21811
+      },
+      "entries": 21811
+    },
+    {
+      "name": "Web of Science Researcher Profiles",
+      "institutions": 115,
+      "sections": {
+        "works": 5801,
+        "peer-reviews": 12531
+      },
+      "entries": 18332
+    },
+    {
+      "name": "Multidisciplinary Digital Publishing Institute",
+      "institutions": 119,
+      "sections": {
+        "works": 7793,
+        "peer-reviews": 9324
+      },
+      "entries": 17117
+    },
+    {
+      "name": "American Chemical Society",
+      "institutions": 103,
+      "sections": {
+        "peer-reviews": 10982
+      },
+      "entries": 10982
+    },
+    {
+      "name": "University of Helsinki",
+      "institutions": 22,
+      "sections": {
+        "affiliations": 237,
+        "works": 9670,
+        "here": 289
+      },
+      "entries": 10196
+    },
+    {
+      "name": "CIÊNCIAVITAE",
+      "institutions": 86,
+      "sections": {
+        "works": 9145,
+        "fundings": 957
+      },
+      "entries": 10102
+    },
+    {
+      "name": "The Australian National University",
+      "institutions": 17,
+      "sections": {
+        "affiliations": 92,
+        "works": 9030,
+        "here": 288
+      },
+      "entries": 9410
+    },
+    {
+      "name": "Aarhus University",
+      "institutions": 23,
+      "sections": {
+        "affiliations": 699,
+        "works": 7860
+      },
+      "entries": 8559
+    },
+    {
+      "name": "NASA Astrophysics Data System",
+      "institutions": 70,
+      "sections": {
+        "works": 7990
+      },
+      "entries": 7990
+    },
+    {
+      "name": "Nature Publishing Group",
+      "institutions": 113,
+      "sections": {
+        "peer-reviews": 6468
+      },
+      "entries": 6468
+    },
+    {
+      "name": "BASE - Bielefeld Academic Search Engine",
+      "institutions": 112,
+      "sections": {
+        "works": 6291
+      },
+      "entries": 6291
+    },
+    {
+      "name": "UNSW Sydney Research Output System",
+      "institutions": 13,
+      "sections": {
+        "works": 6257,
+        "affiliations": 25
+      },
+      "entries": 6282
+    },
+    {
+      "name": "Charles Darwin University",
+      "institutions": 8,
+      "sections": {
+        "works": 5719,
+        "affiliations": 45,
+        "here": 180
+      },
+      "entries": 5944
+    },
+    {
+      "name": "Charles University - IS Věda",
+      "institutions": 7,
+      "sections": {
+        "works": 5285,
+        "here": 199,
+        "affiliations": 182
+      },
+      "entries": 5666
+    },
+    {
+      "name": "KAUST Repository",
+      "institutions": 9,
+      "sections": {
+        "affiliations": 191,
+        "works": 5265
+      },
+      "entries": 5456
+    },
+    {
+      "name": "Sapienza Università di Roma - IRIS",
+      "institutions": 6,
+      "sections": {
+        "affiliations": 41,
+        "works": 4199,
+        "here": 213
+      },
+      "entries": 4453
+    },
+    {
+      "name": "Symplectic Elements at University of Tasmania",
+      "institutions": 4,
+      "sections": {
+        "works": 4310
+      },
+      "entries": 4310
+    },
+    {
+      "name": "University of Canberra",
+      "institutions": 10,
+      "sections": {
+        "works": 4300,
+        "affiliations": 1
+      },
+      "entries": 4301
+    },
+    {
+      "name": "University of Tasmania",
+      "institutions": 10,
+      "sections": {
+        "works": 3351,
+        "fundings": 587
+      },
+      "entries": 3938
+    },
+    {
+      "name": "Ghent University Academic Bibliography",
+      "institutions": 11,
+      "sections": {
+        "works": 3753
+      },
+      "entries": 3753
+    },
+    {
+      "name": "PLOS",
+      "institutions": 115,
+      "sections": {
+        "peer-reviews": 3375
+      },
+      "entries": 3375
+    },
+    {
+      "name": "Editorial Manager Journals at Wiley",
+      "institutions": 102,
+      "sections": {
+        "peer-reviews": 3082
+      },
+      "entries": 3082
+    }
+  ],
+  "members": {
+    "writes": {
+      "institutions": 31,
+      "profiles": 68239,
+      "avgOverall": 0.3371854193838852,
+      "empty": 0.4746112926625537,
+      "years": {
+        "2012": {
+          "profiles": 89,
+          "avgOverall": 0.6264044943820221,
+          "empty": 0.10112359550561797
+        },
+        "2013": {
+          "profiles": 667,
+          "avgOverall": 0.6200712143928043,
+          "empty": 0.04047976011994003
+        },
+        "2014": {
+          "profiles": 822,
+          "avgOverall": 0.6159620843471202,
+          "empty": 0.07664233576642336
+        },
+        "2015": {
+          "profiles": 1288,
+          "avgOverall": 0.5949598861283643,
+          "empty": 0.07375776397515528
+        },
+        "2016": {
+          "profiles": 1967,
+          "avgOverall": 0.5677660566005757,
+          "empty": 0.1443823080833757
+        },
+        "2017": {
+          "profiles": 2469,
+          "avgOverall": 0.5563014715809372,
+          "empty": 0.12434183880113406
+        },
+        "2018": {
+          "profiles": 2428,
+          "avgOverall": 0.5624021828665554,
+          "empty": 0.10172981878088962
+        },
+        "2019": {
+          "profiles": 2694,
+          "avgOverall": 0.5415212818609256,
+          "empty": 0.11247216035634744
+        },
+        "2020": {
+          "profiles": 3350,
+          "avgOverall": 0.515094527363184,
+          "empty": 0.13313432835820896
+        },
+        "2021": {
+          "profiles": 3225,
+          "avgOverall": 0.4930736434108536,
+          "empty": 0.14914728682170542
+        },
+        "2022": {
+          "profiles": 5110,
+          "avgOverall": 0.41314660795825264,
+          "empty": 0.2953033268101761
+        },
+        "2023": {
+          "profiles": 6657,
+          "avgOverall": 0.3838547143357843,
+          "empty": 0.3519603424966201
+        },
+        "2024": {
+          "profiles": 16243,
+          "avgOverall": 0.2317588089228014,
+          "empty": 0.6617619897802131
+        },
+        "2025": {
+          "profiles": 14996,
+          "avgOverall": 0.20156597314838665,
+          "empty": 0.7184582555348092
+        },
+        "2026": {
+          "profiles": 6226,
+          "avgOverall": 0.1893624852768007,
+          "empty": 0.7627690330870542
+        }
+      }
+    },
+    "other": {
+      "institutions": 37,
+      "profiles": 84526,
+      "avgOverall": 0.3028599681361113,
+      "empty": 0.55975676123323,
+      "years": {
+        "2012": {
+          "profiles": 62,
+          "avgOverall": 0.5925403225806453,
+          "empty": 0.08064516129032258
+        },
+        "2013": {
+          "profiles": 530,
+          "avgOverall": 0.6143396226415094,
+          "empty": 0.07924528301886792
+        },
+        "2014": {
+          "profiles": 666,
+          "avgOverall": 0.6096971971971972,
+          "empty": 0.06456456456456457
+        },
+        "2015": {
+          "profiles": 1015,
+          "avgOverall": 0.5872003284072246,
+          "empty": 0.11133004926108374
+        },
+        "2016": {
+          "profiles": 1701,
+          "avgOverall": 0.5650034293552807,
+          "empty": 0.16696061140505586
+        },
+        "2017": {
+          "profiles": 2115,
+          "avgOverall": 0.547771867612293,
+          "empty": 0.17541371158392435
+        },
+        "2018": {
+          "profiles": 2527,
+          "avgOverall": 0.535234467748318,
+          "empty": 0.1515631183221211
+        },
+        "2019": {
+          "profiles": 2918,
+          "avgOverall": 0.5194810943568651,
+          "empty": 0.15661411925976695
+        },
+        "2020": {
+          "profiles": 3567,
+          "avgOverall": 0.4971486309690693,
+          "empty": 0.18643117465657416
+        },
+        "2021": {
+          "profiles": 3542,
+          "avgOverall": 0.46527738565782195,
+          "empty": 0.19960474308300397
+        },
+        "2022": {
+          "profiles": 5876,
+          "avgOverall": 0.4104216303607843,
+          "empty": 0.32573179033356026
+        },
+        "2023": {
+          "profiles": 8176,
+          "avgOverall": 0.3587965794194331,
+          "empty": 0.4152397260273973
+        },
+        "2024": {
+          "profiles": 20944,
+          "avgOverall": 0.224621212121186,
+          "empty": 0.7008689839572193
+        },
+        "2025": {
+          "profiles": 21609,
+          "avgOverall": 0.1911961836888703,
+          "empty": 0.7746309408116988
+        },
+        "2026": {
+          "profiles": 9274,
+          "avgOverall": 0.17714174034937166,
+          "empty": 0.8104377830493854
+        }
+      }
+    }
+  }
+}

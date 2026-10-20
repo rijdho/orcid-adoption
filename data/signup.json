@@ -1,0 +1,908 @@
+{
+  "generatedAt": "2026-10-20",
+  "groups": {
+    "member": {
+      "2013": {
+        "start-only": {
+          "entries": 1,
+          "atSignup": 0,
+          "byClient": 0
+        }
+      },
+      "2014": {
+        "start-only": {
+          "entries": 14,
+          "atSignup": 6,
+          "byClient": 0
+        },
+        "undated": {
+          "entries": 6,
+          "atSignup": 4,
+          "byClient": 0
+        },
+        "ended": {
+          "entries": 11,
+          "atSignup": 4,
+          "byClient": 0
+        }
+      },
+      "2015": {
+        "ended": {
+          "entries": 18,
+          "atSignup": 11,
+          "byClient": 0
+        },
+        "start-only": {
+          "entries": 24,
+          "atSignup": 12,
+          "byClient": 0
+        },
+        "undated": {
+          "entries": 3,
+          "atSignup": 2,
+          "byClient": 0
+        }
+      },
+      "2016": {
+        "ended": {
+          "entries": 29,
+          "atSignup": 12,
+          "byClient": 0
+        },
+        "undated": {
+          "entries": 7,
+          "atSignup": 1,
+          "byClient": 0
+        },
+        "start-only": {
+          "entries": 32,
+          "atSignup": 21,
+          "byClient": 0
+        }
+      },
+      "2017": {
+        "ended": {
+          "entries": 20,
+          "atSignup": 7,
+          "byClient": 1
+        },
+        "undated": {
+          "entries": 45,
+          "atSignup": 7,
+          "byClient": 39
+        },
+        "start-only": {
+          "entries": 38,
+          "atSignup": 17,
+          "byClient": 0
+        }
+      },
+      "2018": {
+        "start-only": {
+          "entries": 40,
+          "atSignup": 16,
+          "byClient": 0
+        },
+        "ended": {
+          "entries": 36,
+          "atSignup": 15,
+          "byClient": 1
+        },
+        "undated": {
+          "entries": 17,
+          "atSignup": 4,
+          "byClient": 14
+        }
+      },
+      "2019": {
+        "ended": {
+          "entries": 65,
+          "atSignup": 24,
+          "byClient": 1
+        },
+        "start-only": {
+          "entries": 76,
+          "atSignup": 33,
+          "byClient": 0
+        },
+        "undated": {
+          "entries": 35,
+          "atSignup": 6,
+          "byClient": 13
+        }
+      },
+      "2020": {
+        "undated": {
+          "entries": 42,
+          "atSignup": 10,
+          "byClient": 14
+        },
+        "start-only": {
+          "entries": 73,
+          "atSignup": 25,
+          "byClient": 0
+        },
+        "ended": {
+          "entries": 47,
+          "atSignup": 12,
+          "byClient": 0
+        }
+      },
+      "2021": {
+        "start-only": {
+          "entries": 66,
+          "atSignup": 22,
+          "byClient": 0
+        },
+        "undated": {
+          "entries": 35,
+          "atSignup": 4,
+          "byClient": 18
+        },
+        "ended": {
+          "entries": 50,
+          "atSignup": 10,
+          "byClient": 4
+        }
+      },
+      "2022": {
+        "undated": {
+          "entries": 540,
+          "atSignup": 212,
+          "byClient": 15
+        },
+        "ended": {
+          "entries": 1735,
+          "atSignup": 358,
+          "byClient": 4
+        },
+        "start-only": {
+          "entries": 1518,
+          "atSignup": 410,
+          "byClient": 0
+        }
+      },
+      "2023": {
+        "ended": {
+          "entries": 3395,
+          "atSignup": 777,
+          "byClient": 20
+        },
+        "start-only": {
+          "entries": 3384,
+          "atSignup": 1022,
+          "byClient": 1
+        },
+        "undated": {
+          "entries": 1780,
+          "atSignup": 676,
+          "byClient": 407
+        }
+      },
+      "2024": {
+        "start-only": {
+          "entries": 16496,
+          "atSignup": 13582,
+          "byClient": 7
+        },
+        "undated": {
+          "entries": 14525,
+          "atSignup": 13741,
+          "byClient": 54
+        },
+        "ended": {
+          "entries": 4101,
+          "atSignup": 1007,
+          "byClient": 136
+        }
+      },
+      "2025": {
+        "undated": {
+          "entries": 20933,
+          "atSignup": 15489,
+          "byClient": 229
+        },
+        "start-only": {
+          "entries": 18683,
+          "atSignup": 13309,
+          "byClient": 133
+        },
+        "ended": {
+          "entries": 3923,
+          "atSignup": 757,
+          "byClient": 179
+        }
+      },
+      "2026": {
+        "start-only": {
+          "entries": 8911,
+          "atSignup": 5656,
+          "byClient": 102
+        },
+        "ended": {
+          "entries": 2130,
+          "atSignup": 272,
+          "byClient": 91
+        },
+        "undated": {
+          "entries": 8811,
+          "atSignup": 6761,
+          "byClient": 718
+        }
+      }
+    },
+    "consortium": {
+      "2013": {
+        "start-only": {
+          "entries": 1,
+          "atSignup": 0,
+          "byClient": 0
+        }
+      },
+      "2014": {
+        "ended": {
+          "entries": 7,
+          "atSignup": 1,
+          "byClient": 0
+        },
+        "start-only": {
+          "entries": 11,
+          "atSignup": 3,
+          "byClient": 0
+        },
+        "undated": {
+          "entries": 5,
+          "atSignup": 3,
+          "byClient": 0
+        }
+      },
+      "2015": {
+        "start-only": {
+          "entries": 18,
+          "atSignup": 10,
+          "byClient": 0
+        },
+        "ended": {
+          "entries": 14,
+          "atSignup": 8,
+          "byClient": 0
+        },
+        "undated": {
+          "entries": 3,
+          "atSignup": 2,
+          "byClient": 0
+        }
+      },
+      "2016": {
+        "ended": {
+          "entries": 24,
+          "atSignup": 9,
+          "byClient": 0
+        },
+        "undated": {
+          "entries": 4,
+          "atSignup": 1,
+          "byClient": 0
+        },
+        "start-only": {
+          "entries": 27,
+          "atSignup": 16,
+          "byClient": 0
+        }
+      },
+      "2017": {
+        "start-only": {
+          "entries": 26,
+          "atSignup": 13,
+          "byClient": 0
+        },
+        "undated": {
+          "entries": 44,
+          "atSignup": 7,
+          "byClient": 39
+        },
+        "ended": {
+          "entries": 15,
+          "atSignup": 6,
+          "byClient": 1
+        }
+      },
+      "2018": {
+        "start-only": {
+          "entries": 33,
+          "atSignup": 12,
+          "byClient": 0
+        },
+        "ended": {
+          "entries": 30,
+          "atSignup": 14,
+          "byClient": 1
+        },
+        "undated": {
+          "entries": 17,
+          "atSignup": 4,
+          "byClient": 14
+        }
+      },
+      "2019": {
+        "start-only": {
+          "entries": 64,
+          "atSignup": 28,
+          "byClient": 0
+        },
+        "undated": {
+          "entries": 34,
+          "atSignup": 5,
+          "byClient": 13
+        },
+        "ended": {
+          "entries": 57,
+          "atSignup": 20,
+          "byClient": 1
+        }
+      },
+      "2020": {
+        "start-only": {
+          "entries": 64,
+          "atSignup": 21,
+          "byClient": 0
+        },
+        "undated": {
+          "entries": 37,
+          "atSignup": 8,
+          "byClient": 14
+        },
+        "ended": {
+          "entries": 37,
+          "atSignup": 9,
+          "byClient": 0
+        }
+      },
+      "2021": {
+        "start-only": {
+          "entries": 49,
+          "atSignup": 17,
+          "byClient": 0
+        },
+        "ended": {
+          "entries": 44,
+          "atSignup": 7,
+          "byClient": 4
+        },
+        "undated": {
+          "entries": 34,
+          "atSignup": 4,
+          "byClient": 18
+        }
+      },
+      "2022": {
+        "ended": {
+          "entries": 1378,
+          "atSignup": 296,
+          "byClient": 4
+        },
+        "start-only": {
+          "entries": 1173,
+          "atSignup": 316,
+          "byClient": 0
+        },
+        "undated": {
+          "entries": 409,
+          "atSignup": 164,
+          "byClient": 15
+        }
+      },
+      "2023": {
+        "ended": {
+          "entries": 2881,
+          "atSignup": 663,
+          "byClient": 20
+        },
+        "start-only": {
+          "entries": 2840,
+          "atSignup": 871,
+          "byClient": 1
+        },
+        "undated": {
+          "entries": 1523,
+          "atSignup": 544,
+          "byClient": 407
+        }
+      },
+      "2024": {
+        "undated": {
+          "entries": 12066,
+          "atSignup": 11402,
+          "byClient": 54
+        },
+        "start-only": {
+          "entries": 13938,
+          "atSignup": 11506,
+          "byClient": 7
+        },
+        "ended": {
+          "entries": 3437,
+          "atSignup": 826,
+          "byClient": 136
+        }
+      },
+      "2025": {
+        "start-only": {
+          "entries": 15746,
+          "atSignup": 11188,
+          "byClient": 133
+        },
+        "ended": {
+          "entries": 3305,
+          "atSignup": 626,
+          "byClient": 179
+        },
+        "undated": {
+          "entries": 17484,
+          "atSignup": 12811,
+          "byClient": 229
+        }
+      },
+      "2026": {
+        "undated": {
+          "entries": 7433,
+          "atSignup": 5630,
+          "byClient": 718
+        },
+        "start-only": {
+          "entries": 7456,
+          "atSignup": 4750,
+          "byClient": 102
+        },
+        "ended": {
+          "entries": 1774,
+          "atSignup": 224,
+          "byClient": 91
+        }
+      }
+    },
+    "direct": {
+      "2014": {
+        "start-only": {
+          "entries": 3,
+          "atSignup": 3,
+          "byClient": 0
+        },
+        "undated": {
+          "entries": 1,
+          "atSignup": 1,
+          "byClient": 0
+        },
+        "ended": {
+          "entries": 4,
+          "atSignup": 3,
+          "byClient": 0
+        }
+      },
+      "2015": {
+        "ended": {
+          "entries": 4,
+          "atSignup": 3,
+          "byClient": 0
+        },
+        "start-only": {
+          "entries": 6,
+          "atSignup": 2,
+          "byClient": 0
+        }
+      },
+      "2016": {
+        "ended": {
+          "entries": 5,
+          "atSignup": 3,
+          "byClient": 0
+        },
+        "undated": {
+          "entries": 3,
+          "atSignup": 0,
+          "byClient": 0
+        },
+        "start-only": {
+          "entries": 5,
+          "atSignup": 5,
+          "byClient": 0
+        }
+      },
+      "2017": {
+        "ended": {
+          "entries": 5,
+          "atSignup": 1,
+          "byClient": 0
+        },
+        "undated": {
+          "entries": 1,
+          "atSignup": 0,
+          "byClient": 0
+        },
+        "start-only": {
+          "entries": 12,
+          "atSignup": 4,
+          "byClient": 0
+        }
+      },
+      "2018": {
+        "start-only": {
+          "entries": 7,
+          "atSignup": 4,
+          "byClient": 0
+        },
+        "ended": {
+          "entries": 6,
+          "atSignup": 1,
+          "byClient": 0
+        }
+      },
+      "2019": {
+        "ended": {
+          "entries": 8,
+          "atSignup": 4,
+          "byClient": 0
+        },
+        "start-only": {
+          "entries": 12,
+          "atSignup": 5,
+          "byClient": 0
+        },
+        "undated": {
+          "entries": 1,
+          "atSignup": 1,
+          "byClient": 0
+        }
+      },
+      "2020": {
+        "undated": {
+          "entries": 5,
+          "atSignup": 2,
+          "byClient": 0
+        },
+        "start-only": {
+          "entries": 9,
+          "atSignup": 4,
+          "byClient": 0
+        },
+        "ended": {
+          "entries": 10,
+          "atSignup": 3,
+          "byClient": 0
+        }
+      },
+      "2021": {
+        "start-only": {
+          "entries": 17,
+          "atSignup": 5,
+          "byClient": 0
+        },
+        "undated": {
+          "entries": 1,
+          "atSignup": 0,
+          "byClient": 0
+        },
+        "ended": {
+          "entries": 6,
+          "atSignup": 3,
+          "byClient": 0
+        }
+      },
+      "2022": {
+        "undated": {
+          "entries": 131,
+          "atSignup": 48,
+          "byClient": 0
+        },
+        "ended": {
+          "entries": 357,
+          "atSignup": 62,
+          "byClient": 0
+        },
+        "start-only": {
+          "entries": 345,
+          "atSignup": 94,
+          "byClient": 0
+        }
+      },
+      "2023": {
+        "ended": {
+          "entries": 514,
+          "atSignup": 114,
+          "byClient": 0
+        },
+        "start-only": {
+          "entries": 544,
+          "atSignup": 151,
+          "byClient": 0
+        },
+        "undated": {
+          "entries": 257,
+          "atSignup": 132,
+          "byClient": 0
+        }
+      },
+      "2024": {
+        "start-only": {
+          "entries": 2558,
+          "atSignup": 2076,
+          "byClient": 0
+        },
+        "undated": {
+          "entries": 2459,
+          "atSignup": 2339,
+          "byClient": 0
+        },
+        "ended": {
+          "entries": 664,
+          "atSignup": 181,
+          "byClient": 0
+        }
+      },
+      "2025": {
+        "undated": {
+          "entries": 3449,
+          "atSignup": 2678,
+          "byClient": 0
+        },
+        "start-only": {
+          "entries": 2937,
+          "atSignup": 2121,
+          "byClient": 0
+        },
+        "ended": {
+          "entries": 618,
+          "atSignup": 131,
+          "byClient": 0
+        }
+      },
+      "2026": {
+        "start-only": {
+          "entries": 1455,
+          "atSignup": 906,
+          "byClient": 0
+        },
+        "ended": {
+          "entries": 356,
+          "atSignup": 48,
+          "byClient": 0
+        },
+        "undated": {
+          "entries": 1378,
+          "atSignup": 1131,
+          "byClient": 0
+        }
+      }
+    },
+    "none": {
+      "2013": {
+        "undated": {
+          "entries": 1,
+          "atSignup": 0,
+          "byClient": 0
+        }
+      },
+      "2014": {
+        "start-only": {
+          "entries": 4,
+          "atSignup": 1,
+          "byClient": 0
+        },
+        "undated": {
+          "entries": 1,
+          "atSignup": 1,
+          "byClient": 0
+        },
+        "ended": {
+          "entries": 4,
+          "atSignup": 3,
+          "byClient": 0
+        }
+      },
+      "2015": {
+        "ended": {
+          "entries": 2,
+          "atSignup": 1,
+          "byClient": 0
+        },
+        "start-only": {
+          "entries": 9,
+          "atSignup": 5,
+          "byClient": 0
+        },
+        "undated": {
+          "entries": 2,
+          "atSignup": 0,
+          "byClient": 0
+        }
+      },
+      "2016": {
+        "ended": {
+          "entries": 7,
+          "atSignup": 3,
+          "byClient": 0
+        },
+        "start-only": {
+          "entries": 16,
+          "atSignup": 8,
+          "byClient": 0
+        },
+        "undated": {
+          "entries": 2,
+          "atSignup": 1,
+          "byClient": 0
+        }
+      },
+      "2017": {
+        "ended": {
+          "entries": 18,
+          "atSignup": 9,
+          "byClient": 0
+        },
+        "start-only": {
+          "entries": 24,
+          "atSignup": 13,
+          "byClient": 0
+        },
+        "undated": {
+          "entries": 2,
+          "atSignup": 1,
+          "byClient": 0
+        }
+      },
+      "2018": {
+        "start-only": {
+          "entries": 27,
+          "atSignup": 12,
+          "byClient": 0
+        },
+        "ended": {
+          "entries": 20,
+          "atSignup": 9,
+          "byClient": 0
+        },
+        "undated": {
+          "entries": 1,
+          "atSignup": 1,
+          "byClient": 0
+        }
+      },
+      "2019": {
+        "start-only": {
+          "entries": 46,
+          "atSignup": 18,
+          "byClient": 0
+        },
+        "ended": {
+          "entries": 11,
+          "atSignup": 3,
+          "byClient": 0
+        },
+        "undated": {
+          "entries": 13,
+          "atSignup": 2,
+          "byClient": 0
+        }
+      },
+      "2020": {
+        "ended": {
+          "entries": 21,
+          "atSignup": 9,
+          "byClient": 0
+        },
+        "start-only": {
+          "entries": 48,
+          "atSignup": 20,
+          "byClient": 0
+        },
+        "undated": {
+          "entries": 13,
+          "atSignup": 5,
+          "byClient": 0
+        }
+      },
+      "2021": {
+        "ended": {
+          "entries": 30,
+          "atSignup": 15,
+          "byClient": 0
+        },
+        "start-only": {
+          "entries": 45,
+          "atSignup": 14,
+          "byClient": 0
+        },
+        "undated": {
+          "entries": 8,
+          "atSignup": 1,
+          "byClient": 1
+        }
+      },
+      "2022": {
+        "undated": {
+          "entries": 316,
+          "atSignup": 132,
+          "byClient": 0
+        },
+        "start-only": {
+          "entries": 698,
+          "atSignup": 249,
+          "byClient": 0
+        },
+        "ended": {
+          "entries": 684,
+          "atSignup": 184,
+          "byClient": 2
+        }
+      },
+      "2023": {
+        "start-only": {
+          "entries": 1534,
+          "atSignup": 469,
+          "byClient": 0
+        },
+        "ended": {
+          "entries": 1230,
+          "atSignup": 288,
+          "byClient": 0
+        },
+        "undated": {
+          "entries": 937,
+          "atSignup": 304,
+          "byClient": 173
+        }
+      },
+      "2024": {
+        "start-only": {
+          "entries": 11901,
+          "atSignup": 10573,
+          "byClient": 0
+        },
+        "ended": {
+          "entries": 1929,
+          "atSignup": 578,
+          "byClient": 0
+        },
+        "undated": {
+          "entries": 10002,
+          "atSignup": 9576,
+          "byClient": 33
+        }
+      },
+      "2025": {
+        "ended": {
+          "entries": 1864,
+          "atSignup": 471,
+          "byClient": 0
+        },
+        "undated": {
+          "entries": 13816,
+          "atSignup": 11807,
+          "byClient": 0
+        },
+        "start-only": {
+          "entries": 14484,
+          "atSignup": 12229,
+          "byClient": 0
+        }
+      },
+      "2026": {
+        "undated": {
+          "entries": 6867,
+          "atSignup": 6125,
+          "byClient": 0
+        },
+        "start-only": {
+          "entries": 7747,
+          "atSignup": 6241,
+          "byClient": 0
+        },
+        "ended": {
+          "entries": 1110,
+          "atSignup": 172,
+          "byClient": 0
+        }
+      }
+    }
+  }
+}

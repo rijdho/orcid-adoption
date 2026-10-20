@@ -1,0 +1,23 @@
+# Private, never committed. Written before the first commit: a file committed once survives its
+# own deletion.
+#   _private/  the harvest and scoring pipeline, the raw ORCID records and per-profile scores.
+#              They run on the maintainer's computer; only their aggregated output is published,
+#              through scripts/export.mjs, which names every field it lets out.
+#   _ref/      notes on how the private parts work.
+#   CLAUDE.md  operational notes that describe the private pipeline.
+_private/
+_ref/
+CLAUDE.md
+
+# Copied from data/ at build time, so it can never go stale.
+web/public/data/
+
+# Build and dependencies
+node_modules/
+web/dist/
+
+# Local tooling and OS noise
+.claude/
+.env
+*.bundle
+.DS_Store

@@ -1,0 +1,97 @@
+/* house-data 1.0.0
+   An OPTIONAL layer over house.css for the data surfaces of a tool: figures, tables, status,
+   a check heatmap, tooltips and the age of the data. Load it after house.css and before the
+   project's own stylesheet. It reads only house.css tokens and defines none of its own.
+
+   Why it exists: the family's chrome is violet and its data is each tool's own. This layer
+   is one way to set data, taken from the IOSP node dashboard (dense, gridded, figures in the
+   mono face) and first used in the atprotocol CRIS demo on 2026-10-13. A page that uses it
+   keeps the family's chrome untouched, so it is not a mix of two identities.
+
+   Rules it keeps:
+     - Status colour (the --lvl-* palette) means a verdict and nothing else: on badges and on
+       heatmap cells, never on a card's edge. A coloured left edge on some cards and not on
+       others reads as inconsistency, so cards keep the hairline and badges carry verdicts.
+     - Figures and identifiers are set in --mono; prose stays in --sans.
+
+   Contents, top to bottom: tiles · badges · facts · bars · toolbar · tables · heatmap ·
+   tooltips · freshness. */
+
+/* ── Tiles: key figures in one grid, sharing their borders ─────────────────── */
+.tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 0;
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--r); overflow: hidden; box-shadow: var(--shadow); }
+.tile { padding: 12px 14px; border-right: 1px solid var(--hair); border-bottom: 1px solid var(--hair); margin: 0 -1px -1px 0; }
+.tile .k { font-family: var(--mono); font-size: 10.5px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.tile .v { font-family: var(--mono); font-weight: 700; font-size: 1.45rem; letter-spacing: -0.01em; margin-top: 4px; }
+.tile .s { font-size: .78rem; color: var(--muted); }
+
+/* ── Badges: a neutral label, or a verdict with .hi (holds), .mid (waits), .lo (fails) ── */
+.badge { display: inline-block; font-family: var(--mono); font-size: 10.5px; font-weight: 600; letter-spacing: .02em;
+  padding: 3px 7px; border-radius: 6px; background: var(--surface-alt); color: var(--muted); white-space: nowrap; }
+.badge.hi { color: var(--lvl-hi-ink); background: color-mix(in oklab, var(--lvl-hi), transparent 88%); }
+.badge.mid { color: var(--lvl-mid-ink); background: color-mix(in oklab, var(--lvl-mid), transparent 88%); }
+.badge.lo { color: var(--lvl-lo-ink); background: color-mix(in oklab, var(--lvl-lo), transparent 88%); }
+.badges { display: flex; gap: 5px; flex-wrap: wrap; }
+
+/* ── Facts: a definition list of labelled values ────────────────────────────── */
+.facts { display: grid; grid-template-columns: max-content 1fr; gap: 6px 16px; margin: 0; font-size: .86rem; }
+.facts dt { font-family: var(--mono); font-size: .72rem; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); padding-top: 2px; }
+.facts dd { margin: 0; word-break: break-word; }
+
+/* ── Bars: a ranked list; the fill takes the data palette, never the brand ──── */
+.bars { display: grid; gap: 8px; }
+.bar-row { display: grid; grid-template-columns: 44px 1fr 40px; gap: 10px; align-items: center; font-family: var(--mono); font-size: .78rem; }
+.bar-row.wide { grid-template-columns: minmax(110px, 38%) 1fr 36px; }
+.bar { height: 10px; border-radius: 5px; background: var(--track); overflow: hidden; }
+.bar > span { display: block; height: 100%; background: var(--f-F); border-radius: 5px; }
+.bar-row .num { text-align: right; }
+
+/* ── Toolbar above a table: search, chips, a count ──────────────────────────── */
+.toolbar { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+.chips { display: flex; gap: 6px; flex-wrap: wrap; }
+.search { font: inherit; font-size: .88rem; padding: 8px 12px; min-width: 240px; flex: 1 1 240px; max-width: 360px;
+  border: 1px solid var(--border); border-radius: var(--r-sm); background: var(--surface); color: var(--text); }
+
+/* ── Tables: dense, with vertical rules, in a card that scrolls sideways ───── */
+.card.flush { padding: 0; overflow-x: auto; }
+table.data { width: 100%; border-collapse: collapse; font-size: .84rem; }
+table.data th { text-align: left; font-family: var(--mono); font-size: .7rem; letter-spacing: .05em; text-transform: uppercase;
+  color: var(--muted); font-weight: 600; padding: 10px 12px; background: var(--surface-alt); position: sticky; top: 0;
+  border-bottom: 1px solid var(--border); }
+table.data td { border-top: 1px solid var(--hair); padding: 7px 10px; vertical-align: top; }
+table.data th, table.data td { border-right: 1px solid var(--hair); }
+table.data th:last-child, table.data td:last-child { border-right: 0; }
+table.data tr.clickable { cursor: pointer; }
+table.data tr.clickable:hover td { background: var(--surface-alt); }
+table.data tr.selected td { background: var(--brand-soft); }
+table.data td.num { font-family: var(--mono); text-align: right; white-space: nowrap; }
+table.data td.nowrap { white-space: nowrap; word-break: normal; }
+table.data .sub { display: block; color: var(--muted); font-size: .76rem; margin-top: 2px; }
+table.data tr.group td { background: var(--surface-alt); font-family: var(--mono); font-size: .7rem; letter-spacing: .05em;
+  text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.mono-s { font-family: var(--mono); font-size: .76rem; color: var(--muted); word-break: break-all; }
+
+/* ── Heatmap: rows checked against columns. V holds, W in part, X fails, N does not apply ── */
+.heat { width: 100%; border-collapse: collapse; font-size: .82rem; }
+.heat th, .heat td { border: 1px solid var(--hair); }
+.heat thead th { font-family: var(--mono); font-size: .68rem; letter-spacing: .05em; text-transform: uppercase; color: var(--muted);
+  font-weight: 600; padding: 8px 6px; background: var(--surface-alt); text-align: center; }
+.heat thead th.l { text-align: left; padding-left: 10px; }
+.heat td.nm { padding: 6px 10px; min-width: 240px; }
+.heat td.nm .sub { display: block; color: var(--muted); font-size: .74rem; font-family: var(--mono); }
+.heat td.q { text-align: center; font: 700 .8rem var(--mono); min-width: 64px; height: 34px; }
+.heat td.sc { text-align: right; font-family: var(--mono); padding: 6px 10px; white-space: nowrap; }
+.q-V { color: var(--lvl-hi-ink); background: color-mix(in oklab, var(--lvl-hi), transparent 86%); }
+.q-W { color: var(--lvl-mid-ink); background: color-mix(in oklab, var(--lvl-mid), transparent 84%); }
+.q-X { color: var(--lvl-lo-ink); background: color-mix(in oklab, var(--lvl-lo), transparent 86%); }
+.q-N { color: var(--muted); background: var(--surface); }
+.heat-legend { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: .78rem; color: var(--muted); margin-top: 10px; }
+.heat-legend .sw { display: inline-block; min-width: 22px; padding: 1px 6px; margin-right: 6px; text-align: center; font: 700 .72rem var(--mono); }
+
+/* ── Tooltips: anything with data-tip; one #tip element, placed by house-tip.js ── */
+[data-tip] { cursor: help; }
+#tip { position: fixed; z-index: 90; display: none; max-width: 340px; padding: 7px 9px; pointer-events: none;
+  background: var(--ink); color: var(--paper); border-radius: 6px; font-size: 12px; line-height: 1.45; box-shadow: var(--shadow); }
+
+/* ── Freshness: when each source was read, stated, not implied ─────────────── */
+.fresh { font-family: var(--mono); font-size: .74rem; color: var(--muted); margin-top: 8px; }

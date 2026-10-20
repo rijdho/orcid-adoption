@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Everything comes from this origin: the bundle, the self-hosted Inter and the data files.
+         React sets inline styles through the CSSOM, which CSP does not govern, so style-src needs
+         no loosening. Clickjacking stays uncovered: GitHub Pages sends no headers and
+         frame-ancestors is ignored in a meta tag. -->
+    <meta http-equiv="Content-Security-Policy" content="
+      default-src 'none';
+      script-src 'self';
+      style-src 'self';
+      font-src 'self';
+      img-src 'self' data:;
+      connect-src 'self';
+      form-action 'none';
+      base-uri 'none';
+      object-src 'none'" />
+    <title>ORCID profiles at member and non-member institutions</title>
+    <meta name="description" content="Completeness of ORCID profiles at 120 research institutions, ORCID members and others compared." />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%236d4aff'/%3E%3Ctext x='16' y='21' font-size='12' text-anchor='middle' fill='%23ffffff' font-family='monospace' font-weight='bold'%3EOA%3C/text%3E%3C/svg%3E" />
+    <!-- Applies the stored theme before first paint (a plain script, so the policy can stay
+         free of 'unsafe-inline'). -->
+    <script src="./theme-boot.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <div id="tip" role="tooltip"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

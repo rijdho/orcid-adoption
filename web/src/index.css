@@ -1,0 +1,685 @@
+/* The shared look (tokens, shell, the self-hosted Inter font) comes from src/house/house.css,
+   an exact copy of the house style that src/main.jsx imports first; never edit it here.
+   What stays in this file is what the dashboard adds.
+
+   The components address colours through the --color-* names, so those names are kept and
+   re-pointed at the house palette, as in the reform-assessment toolkit. Status colours
+   (alive/dead badges) use the house level palette. */
+:root {
+  --color-bg: var(--paper);
+  --color-surface: var(--surface);
+  --color-surface-alt: var(--surface-2);
+  --color-border: var(--hairline);
+  --color-text: var(--ink);
+  --color-text-muted: var(--ink-2);
+  --color-accent: var(--brand);
+  --color-accent-dim: var(--brand-soft);
+  --color-contrast-text: var(--accent-ink);
+  --color-link: var(--brand);
+  --color-success: var(--lvl-hi-ink);
+  --color-success-dim: color-mix(in srgb, var(--lvl-hi) 14%, transparent);
+  --color-danger: var(--lvl-lo-ink);
+  --color-danger-dim: color-mix(in srgb, var(--lvl-lo) 12%, transparent);
+  --color-warning: var(--lvl-mid-ink);
+  --color-warning-dim: color-mix(in srgb, var(--lvl-mid) 14%, transparent);
+}
+
+.content h1 { font-size: 26px; margin: 4px 0 4px; }
+.content h2 { font-size: 16px; font-weight: 700; margin: 26px 0 8px; }
+.content p, .content ul { margin: 0; }
+.content .lede { margin-bottom: 22px; }
+
+hr { border: none; border-top: 1px solid var(--color-border); margin: 28px 0; }
+
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 12px;
+  margin: 16px 0 24px;
+}
+.stat {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  padding: 14px 16px;
+}
+.stat .num {
+  font-family: var(--mono);
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--color-accent);
+}
+.stat .lbl {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--color-text-muted);
+  margin-top: 2px;
+}
+
+/* Table */
+.table-wrap {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  overflow-x: auto;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+th, td {
+  padding: 10px 12px;
+  text-align: left;
+  border-bottom: 1px solid var(--color-border);
+}
+th {
+  background: var(--color-surface-alt);
+  font-weight: 600;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--color-text-muted);
+  position: sticky;
+  top: 0;
+}
+tbody tr:hover { background: var(--color-accent-dim); }
+tbody tr:last-child td { border-bottom: none; }
+td.mono { font-family: var(--mono); font-size: 12px; }
+td.muted { color: var(--color-text-muted); }
+
+.badge {
+  display: inline-block;
+  padding: 2px 8px;
+  font-size: 11px;
+  font-weight: 600;
+  border-radius: 4px;
+  background: var(--color-surface-alt);
+  color: var(--color-text-muted);
+}
+.badge.alive  { background: var(--color-success-dim); color: var(--color-success); }
+.badge.dead   { background: var(--color-danger-dim); color: var(--color-danger); }
+.badge.unkn   { background: var(--color-warning-dim); color: var(--color-warning); }
+
+/* Filter bar */
+.filters {
+  display: flex;
+  gap: 12px;
+  margin: 12px 0 16px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.filters input, .filters select {
+  background: var(--color-surface);
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  padding: 6px 10px;
+  font-size: 13px;
+  font-family: inherit;
+}
+.filters label {
+  font-size: 12px;
+  color: var(--color-text-muted);
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.bar-row {
+  display: grid;
+  grid-template-columns: 260px 1fr 60px;
+  font-family: var(--sans);
+  gap: 8px;
+  align-items: center;
+  font-size: 13px;
+  padding: 4px 0;
+}
+.bar-row .lbl { color: var(--color-text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.bar-row .bar-bg {
+  background: var(--track);
+  border-radius: 5px;
+  height: 10px;
+  overflow: hidden;
+}
+/* Translucent fills, full colour on hover; the fill colour comes from the data. */
+.bar-row .bar-fg {
+  display: block;
+  background: var(--color-accent);
+  height: 100%;
+  border-radius: 5px;
+  opacity: .5;
+  transition: opacity .15s;
+}
+.bar-row:hover .bar-fg { opacity: .9; }
+.bar-row .count {
+  font-family: var(--mono);
+  color: var(--color-text-muted);
+  text-align: right;
+  font-size: 12px;
+}
+
+.export-buttons {
+  display: inline-flex;
+  gap: 6px;
+  margin-left: 12px;
+}
+.export-btn {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 4px;
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  color: var(--color-text);
+  cursor: pointer;
+  font-family: var(--mono);
+}
+.export-btn:hover {
+  background: var(--color-accent-dim);
+  color: var(--color-accent);
+  border-color: var(--color-accent);
+}
+
+.dc-link {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  padding: 1px 6px;
+  border-radius: 3px;
+  background: var(--color-accent-dim);
+  color: var(--color-accent);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.dc-link:hover { text-decoration: underline; }
+
+/* Stacked platform-mix bar (per consortium) */
+.stack-row {
+  display: grid;
+  grid-template-columns: 220px 1fr 80px;
+  gap: 10px;
+  align-items: center;
+  padding: 6px 0;
+  font-size: 12px;
+}
+.stack-row .stack-label {
+  font-weight: 600;
+  color: var(--color-text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.stack-row .stack-label .sub {
+  display: block;
+  font-weight: 400;
+  font-size: 10px;
+  color: var(--color-text-muted);
+  margin-top: 1px;
+}
+.stack-row .stack-bar {
+  display: flex;
+  height: 18px;
+  background: var(--color-surface-alt);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.stack-row .stack-seg {
+  height: 100%;
+}
+.stack-row .stack-total {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--color-text-muted);
+  text-align: right;
+}
+.stack-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 8px 0 16px;
+  font-size: 11px;
+  color: var(--color-text-muted);
+}
+/* Box-style row showing completeness distribution per software */
+.box-row {
+  display: grid;
+  grid-template-columns: 220px 1fr 80px 60px;
+  gap: 10px;
+  align-items: center;
+  padding: 4px 0;
+  font-size: 12px;
+}
+.box-row .box-label {
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.box-row .box-axis {
+  position: relative;
+  height: 22px;
+  background: var(--color-surface-alt);
+  border-radius: 3px;
+}
+.box-row .box-tick {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: var(--color-border);
+}
+.box-row .box-iqr {
+  position: absolute;
+  top: 4px;
+  bottom: 4px;
+  background: var(--color-accent-dim);
+  border: 1px solid var(--color-accent);
+  border-radius: 2px;
+}
+.box-row .box-median {
+  position: absolute;
+  top: 2px;
+  bottom: 2px;
+  width: 2px;
+  background: var(--color-accent);
+}
+.box-row .box-whisker {
+  position: absolute;
+  top: 10px;
+  height: 2px;
+  background: var(--color-text-muted);
+}
+.box-row .box-mean-num {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--color-text);
+}
+.box-row .box-n {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--color-text-muted);
+  text-align: right;
+}
+
+.stack-legend .swatch {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+
+/* X-axis header for the PlatformMixBar grid + the bright-spots homogeneity
+   chart. Shares the 220px-1fr-80px grid of .stack-row so ticks line up with
+   the bars below. */
+.mix-axis-wrap {
+  display: grid;
+  grid-template-columns: 220px 1fr 80px;
+  gap: 10px;
+  align-items: end;
+  padding: 14px 0 4px;
+  font-size: 10px;
+  color: var(--color-text-muted);
+}
+.mix-axis-spacer, .mix-axis-spacer-right { /* placeholders */ }
+.mix-axis {
+  position: relative;
+  height: 18px;
+  border-bottom: 1px solid var(--color-border);
+}
+.mix-tick {
+  position: absolute;
+  bottom: 0;
+  width: 1px;
+  height: 5px;
+  background: var(--color-border);
+}
+.mix-tick-label {
+  position: absolute;
+  bottom: 6px;
+  left: 0;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--color-text-muted);
+}
+.mix-axis-title {
+  position: absolute;
+  right: 0;
+  bottom: 6px;
+  font-style: italic;
+  font-size: 10px;
+  color: var(--color-text-muted);
+}
+
+/* Axis above the completeness boxplot. Same grid as .box-row so the ticks
+   line up vertically with each box. */
+.box-axis-title {
+  font-size: 12px;
+  color: var(--color-text-muted);
+  margin: 12px 0 4px 230px;       /* offset = label-col width + gap */
+  font-style: italic;
+}
+.box-axis-header {
+  display: grid;
+  grid-template-columns: 220px 1fr 80px 80px;
+  gap: 10px;
+  align-items: end;
+  padding-bottom: 4px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid var(--color-border);
+}
+.box-axis-header .box-axis-row {
+  position: relative;
+  height: 14px;
+}
+.box-axis-tick-label {
+  position: absolute;
+  bottom: 0;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--color-text-muted);
+}
+
+/* Legend explaining the boxplot glyphs */
+.box-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin: 0 0 8px;
+  padding: 8px 12px;
+  font-size: 11px;
+  color: var(--color-text-muted);
+  background: var(--color-surface-alt);
+  border-radius: 4px;
+}
+.box-legend .lg-swatch {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.box-legend .lg-whisker {
+  width: 18px; height: 2px;
+  background: var(--color-text-muted);
+}
+.box-legend .lg-iqr {
+  width: 18px; height: 12px;
+  background: var(--color-accent-dim);
+  border: 1px solid var(--color-accent);
+  border-radius: 2px;
+}
+.box-legend .lg-median {
+  width: 2px; height: 14px;
+  background: var(--color-accent);
+}
+.box-legend .lg-ci {
+  width: 18px; height: 4px;
+  background: var(--color-accent);
+  opacity: 0.55;
+  border-radius: 2px;
+}
+.box-legend .lg-mean {
+  width: 10px; height: 10px;
+  background: var(--color-accent);
+  border-radius: 50%;
+  border: 1.5px solid var(--color-surface);
+}
+
+/* CI bar overlaid on the boxplot row */
+.box-row .box-ci {
+  position: absolute;
+  top: 16px;
+  height: 4px;
+  background: var(--color-accent);
+  opacity: 0.55;
+  border-radius: 2px;
+}
+.box-row .box-mean {
+  position: absolute;
+  top: 6px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--color-accent);
+  border: 1.5px solid var(--color-surface);
+  transform: translateX(-50%);
+}
+.box-row .box-baseline {
+  position: absolute;
+  top: -2px;
+  bottom: -2px;
+  width: 0;
+  border-left: 1px dashed var(--color-text-muted);
+}
+
+/* Expand box-row grid to include the n+delta column */
+.box-row {
+  grid-template-columns: 220px 1fr 80px 80px;
+}
+.box-row .box-mean-num .box-ci-num {
+  display: inline;
+  font-size: 10px;
+  color: var(--color-text-muted);
+  margin-left: 4px;
+}
+.box-row .box-delta {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 0 4px;
+  border-radius: 3px;
+  font-size: 10px;
+  font-family: var(--mono);
+}
+.box-row .box-src {
+  font-size: 9px;
+  color: var(--color-text-muted);
+  font-family: var(--mono);
+}
+.box-row .box-delta.sig {
+  background: var(--color-success-dim);
+  color: var(--color-success);
+}
+.box-row .box-delta.ns {
+  background: var(--color-surface-alt);
+  color: var(--color-text-muted);
+}
+
+/* Per-field heatmap */
+.heatmap-wrap {
+  margin: 12px 0 24px;
+  overflow-x: auto;
+}
+table.heatmap {
+  border-collapse: collapse;
+  font-size: 12px;
+  min-width: 720px;
+}
+table.heatmap th, table.heatmap td {
+  padding: 4px 6px;
+  text-align: center;
+  border: 1px solid var(--color-border);
+}
+table.heatmap th.hm-row-head, table.heatmap td.hm-row-head {
+  text-align: left;
+  font-weight: 600;
+  background: var(--color-surface);
+  white-space: nowrap;
+  min-width: 200px;
+}
+table.heatmap td.hm-row-head .hm-swatch {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+table.heatmap td.hm-row-head .hm-n {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--color-text-muted);
+  margin-left: 6px;
+}
+table.heatmap th.hm-group {
+  background: var(--color-surface-alt);
+  font-size: 11px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+}
+table.heatmap th.hm-field {
+  font-size: 10px;
+  font-weight: 500;
+  color: var(--color-text-muted);
+  font-family: var(--mono);
+  background: var(--color-surface);
+  text-transform: none;
+  letter-spacing: 0;
+}
+table.heatmap td.hm-cell {
+  font-family: var(--mono);
+  font-size: 11px;
+  min-width: 32px;
+  color: var(--color-text);
+}
+table.heatmap th.hm-row-summary, table.heatmap td.hm-row-summary {
+  font-family: var(--mono);
+  font-weight: 600;
+  background: var(--color-surface-alt);
+}
+.custom-tag {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 0 5px;
+  font-size: 9px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  border-radius: 3px;
+  background: var(--color-warning-dim);
+  color: var(--color-warning);
+}
+
+.hm-caption {
+  margin-top: 8px;
+  font-size: 11px;
+  color: var(--color-text-muted);
+  max-width: 760px;
+}
+
+.empty-state {
+  background: var(--color-surface);
+  border: 1px dashed var(--color-border);
+  border-radius: 6px;
+  padding: 32px;
+  text-align: center;
+  color: var(--color-text-muted);
+}
+.empty-state code {
+  display: inline-block;
+  background: var(--color-surface-alt);
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--color-text);
+}
+
+.theme-btn {
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 4px 8px;
+}
+
+/* Two-way view switch (all affiliated / current staff) */
+.view-toggle {
+  display: inline-flex;
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  overflow: hidden;
+  margin: 4px 0 6px;
+}
+.view-toggle button {
+  font-size: 12.5px;
+  font-weight: 600;
+  padding: 6px 12px;
+  border: none;
+  background: var(--color-surface);
+  color: var(--color-text-muted);
+  cursor: pointer;
+}
+.view-toggle button + button { border-left: 1px solid var(--color-border); }
+.view-toggle button.active {
+  background: var(--color-accent-dim);
+  color: var(--color-accent);
+}
+
+@media (max-width: 600px) {
+  .bar-row { grid-template-columns: 46% 1fr 44px; }
+}
+
+/* Text blocks */
+.note { font-size: 13px; margin: 2px 0 10px; max-width: 780px; line-height: 1.5; }
+.deflist { font-size: 12.5px; margin: 0 0 14px; max-width: 780px; }
+.deflist > div { margin-bottom: 3px; line-height: 1.45; }
+.deflist b { color: var(--color-text); }
+.callout { background: var(--color-accent-dim); border: 1px solid var(--color-border); border-radius: 8px;
+  padding: 11px 14px; margin: 10px 0 16px; max-width: 780px; }
+.callout-title { font-weight: 600; font-size: 13px; margin-bottom: 3px; }
+.callout .muted { font-size: 13px; line-height: 1.5; }
+.view-hint { font-size: 12.5px; max-width: 780px; line-height: 1.45; }
+.prose { max-width: 760px; }
+.prose ul { padding-left: 18px; }
+.prose li { margin-bottom: 4px; }
+.prose p { margin-bottom: 8px; }
+
+/* Tables: numbers right-aligned in the mono face */
+th.r, td.r { text-align: right; }
+td.r { font-variant-numeric: tabular-nums; }
+a.dc { margin-left: 6px; font-size: 11px; white-space: nowrap; }
+
+/* Data tab */
+.downloads { list-style: none; padding: 0 !important; margin: 8px 0 12px; }
+.downloads li { display: grid; gap: 2px; margin-bottom: 12px; }
+.downloads a { font-weight: 600; }
+.json-list { line-height: 1.9; font-size: 13px; }
+
+/* Start page */
+.country-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; margin: 8px 0 22px; }
+.country-card { display: flex; flex-direction: column; gap: 6px; text-decoration: none; color: var(--color-text); }
+.country-card:hover { border-color: var(--color-accent); }
+.country-name { font-family: var(--disp); font-weight: 800; font-size: 20px; letter-spacing: -0.02em; margin-top: 6px; }
+.country-open { margin-top: 8px; color: var(--color-accent); font-weight: 600; font-size: 13.5px; }
+
+/* Main results and the comparison table */
+.findings { padding-left: 18px; margin: 4px 0 22px; max-width: 780px; }
+.findings li { margin-bottom: 6px; line-height: 1.55; }
+.content h3 { font-size: 14px; font-weight: 700; margin: 20px 0 6px; }
+.compare { max-width: 640px; margin: 8px 0 16px; }
+.country-links { display: flex; gap: 10px; flex-wrap: wrap; margin: 0 0 18px; }
+.country-links .btn { text-decoration: none; }
+
+/* Radar chart: translucent areas, the exact values are in the dots' tooltips and the table. */
+.radar { margin: 6px 0 14px; max-width: 460px; }
+.radar svg { width: 100%; height: auto; display: block; overflow: visible; }
+.radar-grid { fill: none; stroke: var(--hairline); }
+.radar-axis { stroke: var(--hairline); }
+.radar-scale { font: 9.5px var(--mono); fill: var(--muted); }
+.radar-label { font: 11.5px var(--sans); fill: var(--text); }
+.radar-area { fill: var(--c); fill-opacity: .14; stroke: var(--c); stroke-opacity: .8; stroke-width: 1.6; }
+.radar-dot { fill: var(--c); fill-opacity: .75; stroke: var(--surface); stroke-width: 1.5; }
+.radar-dot:hover { fill-opacity: 1; r: 6; }
+.radar-legend { display: flex; gap: 16px; flex-wrap: wrap; font-size: 12.5px; color: var(--muted); margin-top: 2px; }
+.radar-legend i { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 6px; opacity: .75; vertical-align: -1px; }
+/* Radar beside its table on wide screens. */
+.with-radar { display: grid; grid-template-columns: minmax(0, 1fr) minmax(280px, 420px); gap: 24px; align-items: start; }
+@media (max-width: 1100px) { .with-radar { grid-template-columns: 1fr; } }

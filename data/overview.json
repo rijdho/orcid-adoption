@@ -1,0 +1,63 @@
+{
+  "generatedAt": "2026-10-20",
+  "harvest": {
+    "from": "2026-10-19",
+    "to": "2026-10-19"
+  },
+  "memberList": "2026-10-19",
+  "maxPerInstitution": 2500,
+  "groups": {
+    "member": {
+      "sampled": 68,
+      "institutions": 68,
+      "truncated": 50,
+      "profiles": 152765,
+      "avgOverall": 0.3181928943146965,
+      "empty": 0.5217229077341013,
+      "staff": {
+        "profiles": 93295,
+        "avgOverall": 0.2442151687301184,
+        "empty": 0.646958572270754
+      }
+    },
+    "consortium": {
+      "sampled": 57,
+      "institutions": 57,
+      "truncated": 42,
+      "profiles": 128065,
+      "avgOverall": 0.3173302294407874,
+      "empty": 0.525475344551595,
+      "staff": {
+        "profiles": 78072,
+        "avgOverall": 0.24281923523594212,
+        "empty": 0.6526155343785224
+      }
+    },
+    "direct": {
+      "sampled": 11,
+      "institutions": 11,
+      "truncated": 8,
+      "profiles": 24700,
+      "avgOverall": 0.3226656545209106,
+      "empty": 0.5022672064777328,
+      "staff": {
+        "profiles": 15223,
+        "avgOverall": 0.25137429109459836,
+        "empty": 0.617946528279577
+      }
+    },
+    "none": {
+      "sampled": 52,
+      "institutions": 52,
+      "truncated": 32,
+      "profiles": 107058,
+      "avgOverall": 0.29343043023420007,
+      "empty": 0.5908292701152646,
+      "staff": {
+        "profiles": 66904,
+        "avgOverall": 0.2089067295428891,
+        "empty": 0.736772091354777
+      }
+    }
+  }
+}

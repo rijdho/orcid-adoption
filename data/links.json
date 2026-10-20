@@ -1,0 +1,166 @@
+{
+  "generatedAt": "2026-10-20",
+  "links": [
+    "current",
+    "undated-recent",
+    "undated-old",
+    "past",
+    "education",
+    "other",
+    "none"
+  ],
+  "staffLinks": [
+    "current",
+    "undated-recent"
+  ],
+  "groups": {
+    "member": {
+      "current": {
+        "profiles": 49609,
+        "avgOverall": 0.3672376316126783,
+        "empty": 0.5893688645205507
+      },
+      "undated-recent": {
+        "profiles": 43686,
+        "avgOverall": 0.10451317355673456,
+        "empty": 0.7123563613056815
+      },
+      "undated-old": {
+        "profiles": 2455,
+        "avgOverall": 0.3050356415478649,
+        "empty": 0.3124236252545825
+      },
+      "past": {
+        "profiles": 10112,
+        "avgOverall": 0.5668228342563382,
+        "empty": 0.16940268987341772
+      },
+      "education": {
+        "profiles": 45108,
+        "avgOverall": 0.405069776979698,
+        "empty": 0.36860423871597053
+      },
+      "other": {
+        "profiles": 1795,
+        "avgOverall": 0.5973375116063123,
+        "empty": 0.13147632311977717
+      },
+      "none": {
+        "profiles": 0,
+        "avgOverall": null,
+        "empty": null
+      }
+    },
+    "consortium": {
+      "current": {
+        "profiles": 41640,
+        "avgOverall": 0.3635117475184847,
+        "empty": 0.5981988472622478
+      },
+      "undated-recent": {
+        "profiles": 36432,
+        "avgOverall": 0.10487357725807608,
+        "empty": 0.7148111550285463
+      },
+      "undated-old": {
+        "profiles": 2061,
+        "avgOverall": 0.3068736859129894,
+        "empty": 0.3178068898592916
+      },
+      "past": {
+        "profiles": 8394,
+        "avgOverall": 0.5618393098244823,
+        "empty": 0.17381462949725995
+      },
+      "education": {
+        "profiles": 37965,
+        "avgOverall": 0.405466328636022,
+        "empty": 0.3693928618464375
+      },
+      "other": {
+        "profiles": 1573,
+        "avgOverall": 0.5972266369993625,
+        "empty": 0.1309599491417673
+      },
+      "none": {
+        "profiles": 0,
+        "avgOverall": null,
+        "empty": null
+      }
+    },
+    "direct": {
+      "current": {
+        "profiles": 7969,
+        "avgOverall": 0.38670629941021106,
+        "empty": 0.5432300163132137
+      },
+      "undated-recent": {
+        "profiles": 7254,
+        "avgOverall": 0.10270310633214086,
+        "empty": 0.7000275709953129
+      },
+      "undated-old": {
+        "profiles": 394,
+        "avgOverall": 0.29542089678510963,
+        "empty": 0.28426395939086296
+      },
+      "past": {
+        "profiles": 1718,
+        "avgOverall": 0.5911719053162556,
+        "empty": 0.1478463329452852
+      },
+      "education": {
+        "profiles": 7143,
+        "avgOverall": 0.4029621074245163,
+        "empty": 0.36441271174576506
+      },
+      "other": {
+        "profiles": 222,
+        "avgOverall": 0.5981231231231232,
+        "empty": 0.13513513513513514
+      },
+      "none": {
+        "profiles": 0,
+        "avgOverall": null,
+        "empty": null
+      }
+    },
+    "none": {
+      "current": {
+        "profiles": 36474,
+        "avgOverall": 0.32092540805326303,
+        "empty": 0.6954268794209574
+      },
+      "undated-recent": {
+        "profiles": 30430,
+        "avgOverall": 0.07463892540256029,
+        "empty": 0.7863292803154781
+      },
+      "undated-old": {
+        "profiles": 1254,
+        "avgOverall": 0.30941321105794856,
+        "empty": 0.3253588516746411
+      },
+      "past": {
+        "profiles": 4395,
+        "avgOverall": 0.5525815320439931,
+        "empty": 0.2068259385665529
+      },
+      "education": {
+        "profiles": 33516,
+        "avgOverall": 0.419185488522873,
+        "empty": 0.3731948919918845
+      },
+      "other": {
+        "profiles": 988,
+        "avgOverall": 0.577977395411605,
+        "empty": 0.13663967611336034
+      },
+      "none": {
+        "profiles": 1,
+        "avgOverall": null,
+        "empty": null
+      }
+    }
+  }
+}
