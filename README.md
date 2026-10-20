@@ -1,5 +1,7 @@
 # ORCID profiles at member and non-member institutions
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23498577.svg)](https://doi.org/10.5281/zenodo.23498577)
+
 Are ORCID profiles more complete at institutions that are ORCID members? This project scores the
 public ORCID profiles found through the ROR ids of 120 research institutions, 20 per continent, and
 compares members with the other institutions: overall, year by year of account creation, and by who
@@ -120,3 +122,9 @@ The [ORCID Public API](https://info.orcid.org/documentation/features/public-api/
 Code under the [MIT License](LICENSE); the data in `data/` and the texts under
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Inter (the font) under the SIL Open Font
 License 1.1. See [`NOTICE`](NOTICE).
+
+## Citation
+
+If you use this comparison or its data, please cite it: see [`CITATION.cff`](CITATION.cff) or the "Cite this
+repository" button. Archived on Zenodo: concept DOI
+[10.5281/zenodo.23498577](https://doi.org/10.5281/zenodo.23498577) (always resolves to the latest version).

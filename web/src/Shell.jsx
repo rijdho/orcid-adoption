@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { t, Md, SECTIONS } from "./lib.jsx";
 
+// The concept DOI on Zenodo (it resolves to the latest version), shown at the foot of the rail.
+const DOI = "10.5281/zenodo.23498577";
 const SECTION_TITLE = { year: "h.year", signup: "h.signup", writers: "h.writers", links: "h.links", ids: "h.ids", checks: "h.checks",
   groups: "h.groups", institutions: "h.institutions", sample: "h.sample", data: "h.data" };
 
@@ -58,7 +60,8 @@ export default function Shell({ children }) {
         {/* The credits stand here only (house-style README, "The house credits"). */}
         <div className="rail-foot">
           <Md>{t("by")}</Md><br />
-          {t("license.code")}<br />{t("license.data")}<br /><Md>{t("source")}</Md>
+          {t("license.code")}<br />{t("license.data")}<br /><Md>{t("source")}</Md><br />
+          <a href={`https://doi.org/${DOI}`} target="_blank" rel="noopener noreferrer">DOI {DOI}</a>
         </div>
       </aside>
       {railOpen && <button className="rail-backdrop" type="button" aria-label={t("menu.close")} onClick={() => setRailOpen(false)} />}
