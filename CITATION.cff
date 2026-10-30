@@ -7,6 +7,7 @@ abstract: >-
   year by year of account creation, by link to the institution, and by who wrote each entry. The
   aggregated results in data/ are under CC BY 4.0; the code is under MIT. Profile-level data are
   available for research on request.
+  It runs at https://rijdho.github.io/orcid-adoption/.
 type: software
 authors:
   - family-names: "Hartley Belmar"
